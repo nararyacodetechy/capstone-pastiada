@@ -45,22 +45,130 @@ class ListToko extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: SingleChildScrollView(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+          child: Stack(
             children: [
-              Image.asset(
-                'assets/banner.png',
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Image.asset(
+                    'assets/banner.png',
+                  ),
+                  const SizedBox(
+                    height: 100,
+                  ),
+                  Container(
+                    child: _buildSubHeading(
+                      title: 'Toko Terdekat\nPaling Dekat Dengan Rumah Anda',
+                      onTap: () {},
+                    ),
+                  ),
+                  const ItemList(),
+                  Container(
+                    child: _buildSubHeading(
+                      title:
+                          'Barang Terlaris\nBarang yang paling sering dicari',
+                      onTap: () {},
+                    ),
+                  ),
+                  const ItemList(),
+                ],
               ),
-              _buildSubHeading(
-                title: 'Toko Terdekat\nPaling Dekat Dengan Rumah Anda',
-                onTap: () {},
+              Card(
+                margin: const EdgeInsets.only(top: 150, left: 10, right: 10),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: <Widget>[
+                    Container(
+                      margin: const EdgeInsets.symmetric(vertical: 16.0),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: <Widget>[
+                          Column(
+                            children: const <Widget>[
+                              Icon(Icons.person),
+                              SizedBox(
+                                height: 8.0,
+                              ),
+                              Text('Kuliner'),
+                            ],
+                          ),
+                          Column(
+                            children: const <Widget>[
+                              Icon(Icons.person),
+                              SizedBox(
+                                height: 8.0,
+                              ),
+                              Text('Kuliner'),
+                            ],
+                          ),
+                          Column(
+                            children: const <Widget>[
+                              Icon(Icons.person),
+                              SizedBox(
+                                height: 8.0,
+                              ),
+                              Text('Kuliner'),
+                            ],
+                          ),
+                          Column(
+                            children: const <Widget>[
+                              Icon(Icons.person),
+                              SizedBox(
+                                height: 8.0,
+                              ),
+                              Text('Kuliner'),
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: const EdgeInsets.symmetric(vertical: 16.0),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: <Widget>[
+                          Column(
+                            children: const <Widget>[
+                              Icon(Icons.person),
+                              SizedBox(
+                                height: 8.0,
+                              ),
+                              Text('Kuliner'),
+                            ],
+                          ),
+                          Column(
+                            children: const <Widget>[
+                              Icon(Icons.person),
+                              SizedBox(
+                                height: 8.0,
+                              ),
+                              Text('Kuliner'),
+                            ],
+                          ),
+                          Column(
+                            children: const <Widget>[
+                              Icon(Icons.person),
+                              SizedBox(
+                                height: 8.0,
+                              ),
+                              Text('Kuliner'),
+                            ],
+                          ),
+                          Column(
+                            children: const <Widget>[
+                              Icon(Icons.person),
+                              SizedBox(
+                                height: 8.0,
+                              ),
+                              Text('Kuliner'),
+                            ],
+                          )
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
               ),
-              const ItemList(),
-              _buildSubHeading(
-                title: 'Barang Terlaris\nBarang yang paling sering dicari',
-                onTap: () {},
-              ),
-              const ItemList(),
             ],
           ),
         ),
