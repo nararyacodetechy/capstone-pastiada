@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pasti_ada/common/styles.dart';
 import 'package:pasti_ada/widget/list_toko.dart';
 import 'package:pasti_ada/widget/multi_platform.dart';
 
@@ -40,6 +41,8 @@ class _HomePageState extends State<HomePage> {
       body: _listWidget[_bottomNavIndex],
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
+        selectedItemColor: iconColor,
+        backgroundColor: primaryColor,
         currentIndex: _bottomNavIndex,
         items: _bottomNavbarItems,
         onTap: _bottomNavTapped,

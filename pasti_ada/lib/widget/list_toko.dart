@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pasti_ada/common/styles.dart';
 import 'package:pasti_ada/widget/multi_platform.dart';
 
 class ListToko extends StatelessWidget {
@@ -10,15 +11,22 @@ class ListToko extends StatelessWidget {
       children: [
         Text(
           title,
+          style: fontSubtitle,
         ),
         InkWell(
           onTap: onTap,
           child: Padding(
             padding: const EdgeInsets.all(8.0),
             child: Row(
-              children: const [
-                Text('Lihat Lebih Lengkap'),
-                Icon(Icons.arrow_forward_ios)
+              children: [
+                Text(
+                  'Lihat Lebih Lengkap',
+                  style: fontSubtitleMedium,
+                ),
+                const Icon(
+                  Icons.arrow_forward_ios,
+                  color: iconColor,
+                )
               ],
             ),
           ),
@@ -30,15 +38,24 @@ class ListToko extends StatelessWidget {
   Widget _androidStyle(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Pasti Ada'),
+        title: Text(
+          'PASTI ADA',
+          style: fontTitleLarge,
+        ),
         actions: [
           IconButton(
             onPressed: () {},
-            icon: const Icon(Icons.search),
+            icon: const Icon(
+              Icons.search,
+              color: iconColor,
+            ),
           ),
           IconButton(
             onPressed: () {},
-            icon: const Icon(Icons.person),
+            icon: const Icon(
+              Icons.person_sharp,
+              color: iconColor,
+            ),
           )
         ],
       ),
