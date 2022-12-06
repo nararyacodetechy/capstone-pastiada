@@ -1,6 +1,6 @@
 {
-    "name": "pasti_ada",
-    "short_name": "pasti_ada",
+    "name": "shop",
+    "short_name": "shop",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
