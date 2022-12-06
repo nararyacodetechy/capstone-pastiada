@@ -211,23 +211,23 @@ class ItemList extends StatelessWidget {
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
         itemBuilder: (context, index) {
-          return Container(
-            padding: const EdgeInsets.all(8.0),
-            child: InkWell(
-              onTap: () {},
-              child: Card(
-                  child: Column(
+          return InkWell(
+            onTap: () {},
+            child: Card(
+              child: Column(
                 children: [
                   Image.asset(
                     'assets/gas.png',
                     height: 150,
-                    width: 200,
+                    width: 180,
                   ),
-                  const Text(
-                    'Gas 3kg',
-                  )
+                  const Expanded(
+                    child: Text(
+                      'Gas 3kg\nGas untuk kita semua okee',
+                    ),
+                  ),
                 ],
-              )),
+              ),
             ),
           );
         },
