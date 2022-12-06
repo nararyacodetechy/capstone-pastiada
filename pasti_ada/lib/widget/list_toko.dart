@@ -11,7 +11,7 @@ class ListToko extends StatelessWidget {
       children: [
         Text(
           title,
-          style: fontSubtitle,
+          style: fontSubtitleMedium,
         ),
         InkWell(
           onTap: onTap,
