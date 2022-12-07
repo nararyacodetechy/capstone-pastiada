@@ -9,6 +9,7 @@ class SelectItemPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Stack(
+        alignment: AlignmentDirectional.bottomEnd,
         children: [
           CustomScrollView(
             slivers: [
@@ -109,7 +110,6 @@ class ButtonConfirmSelectItems extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.only(top: 583),
       padding: const EdgeInsets.all(10),
       height: 100,
       decoration: BoxDecoration(
