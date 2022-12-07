@@ -1,9 +1,23 @@
-import 'package:flutter/material.dart';
+// ignore_for_file: avoid_print
 
-class CardCostumStock extends StatelessWidget {
+import 'package:flutter/material.dart';
+import 'package:flutter_number_picker/flutter_number_picker.dart';
+
+class CardCostumStock extends StatefulWidget {
   const CardCostumStock({
     Key? key,
   }) : super(key: key);
+
+  @override
+  State<CardCostumStock> createState() => _CardCostumStockState();
+}
+
+class _CardCostumStockState extends State<CardCostumStock> {
+
+  @override
+  void initState() {
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -16,9 +30,9 @@ class CardCostumStock extends StatelessWidget {
       child: Center(
         child: ListTile(
           contentPadding:
-          const EdgeInsets.symmetric(horizontal: 8.0, vertical: 8.0),
+              const EdgeInsets.symmetric(horizontal: 8.0, vertical: 8.0),
           leading: Hero(
-            tag: "",
+            tag: "1",
             child: Container(
               decoration: const BoxDecoration(
                 color: Colors.orange,
@@ -45,10 +59,44 @@ class CardCostumStock extends StatelessWidget {
               ),
             ],
           ),
-          trailing: Column(
-            children: [
-
-            ],
+          trailing: SizedBox(
+            width: 150,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                SizedBox(
+                  width: 100,
+                  child: Center(
+                    child: CustomNumberPicker(
+                      shape: const Border(
+                        top: BorderSide(color: Colors.orange),
+                        left: BorderSide(color: Colors.orange),
+                        right: BorderSide(color: Colors.orange),
+                        bottom: BorderSide(color: Colors.orange),
+                      ),
+                      initialValue: 1,
+                      maxValue: 50,
+                      minValue: 1,
+                      step: 1,
+                      onValue: (value) {
+                        print(value.toString());
+                      },
+                      valueTextStyle: const TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.w500,
+                          color: Colors.orange),
+                    ),
+                  ),
+                ),
+                const SizedBox(
+                  width: 50,
+                  child: Icon(
+                    Icons.close,
+                    color: Colors.red,
+                  ),
+                )
+              ],
+            ),
           ),
         ),
       ),
