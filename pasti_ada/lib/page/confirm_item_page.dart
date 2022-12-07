@@ -11,22 +11,29 @@ class ConfirmItemPage extends StatelessWidget {
         backgroundColor: Colors.orange,
         title: const Text("Konfirmasi Barang"),
       ),
-      body: SingleChildScrollView(
-        child: Container(
-          padding: const EdgeInsets.all(10),
-          child: Column(
-            children: const [
-              CardCostumStock(),
-              CardCostumStock(),
-              CardCostumStock(),
-              CardCostumStock(),
-              CardCostumStock(),
-              CardCostumStock(),
-              CardCostumStock(),
-              CardCostumStock(),
-            ],
+      body: Stack(
+        alignment: AlignmentDirectional.bottomEnd,
+        children: [
+          SingleChildScrollView(
+            child: Container(
+              margin: const EdgeInsets.only(bottom: 60),
+              padding: const EdgeInsets.all(10),
+              child: Column(
+                children: const [
+                  CardCostumStock(),
+                  CardCostumStock(),
+                  CardCostumStock(),
+                  CardCostumStock(),
+                  CardCostumStock(),
+                  CardCostumStock(),
+                  CardCostumStock(),
+                  CardCostumStock(),
+                ],
+              ),
+            ),
           ),
-        ),
+          const ButtonOrderConfirm()
+        ],
       ),
     );
   }
@@ -40,7 +47,6 @@ class ButtonOrderConfirm extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.only(top: 540),
       height: 60,
       decoration: BoxDecoration(
         color: Colors.white,
@@ -76,7 +82,8 @@ class ButtonOrderConfirm extends StatelessWidget {
               child: ElevatedButton(
                 onPressed: () => Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const ConfirmItemPage()),
+                  MaterialPageRoute(
+                      builder: (context) => const ConfirmItemPage()),
                 ),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.orange,
