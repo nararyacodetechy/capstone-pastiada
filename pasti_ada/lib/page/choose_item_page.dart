@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:pasti_ada/page/confirm_item_page.dart';
 import 'package:pasti_ada/widget/widget_card_choose_item.dart';
 
-class ChooseItem extends StatelessWidget {
-  const ChooseItem({super.key});
+class SelectItemPage extends StatelessWidget {
+  const SelectItemPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -37,7 +37,8 @@ class ChooseItem extends StatelessWidget {
                     padding: const EdgeInsets.all(10),
                     child: TextField(
                       textAlignVertical: TextAlignVertical.center,
-                      style: const TextStyle(color: Colors.orange, fontSize: 18),
+                      style:
+                          const TextStyle(color: Colors.orange, fontSize: 18),
                       decoration: InputDecoration(
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(10),
@@ -93,15 +94,15 @@ class ChooseItem extends StatelessWidget {
               )
             ],
           ),
-          const ChooseMenu(),
+          const ButtonConfirmSelectItems(),
         ],
       ),
     );
   }
 }
 
-class ChooseMenu extends StatelessWidget {
-  const ChooseMenu({
+class ButtonConfirmSelectItems extends StatelessWidget {
+  const ButtonConfirmSelectItems({
     Key? key,
   }) : super(key: key);
 
@@ -147,7 +148,7 @@ class ChooseMenu extends StatelessWidget {
                   onPressed: () => Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => const ConfirmItem()),
+                        builder: (context) => const ConfirmItemPage()),
                   ),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.orange,

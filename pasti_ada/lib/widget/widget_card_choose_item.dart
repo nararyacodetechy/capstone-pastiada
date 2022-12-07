@@ -16,7 +16,7 @@ class CardProduct extends StatelessWidget {
       child: Center(
         child: ListTile(
           contentPadding:
-          const EdgeInsets.symmetric(horizontal: 8.0, vertical: 8.0),
+              const EdgeInsets.symmetric(horizontal: 8.0, vertical: 8.0),
           leading: Hero(
             tag: "",
             child: Container(
@@ -55,17 +55,39 @@ class CardProduct extends StatelessWidget {
               //   ),
               //   child: const Text("Tersedia: 28"),
               // ),
-              ElevatedButton(
-                onPressed: () {},
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.orange,
-                ),
-                child: const Text("Pilih"),
-              )
+              const ChooseItem(),
             ],
           ),
         ),
       ),
+    );
+  }
+}
+
+bool _isSelected = false;
+
+class ChooseItem extends StatefulWidget {
+  const ChooseItem({Key? key}) : super(key: key);
+
+  @override
+  // ignore: library_private_types_in_public_api
+  _ChooseItemState createState() => _ChooseItemState();
+}
+
+class _ChooseItemState extends State<ChooseItem> {
+  @override
+  Widget build(BuildContext context) {
+    return ElevatedButton(
+      style: ElevatedButton.styleFrom(
+        backgroundColor: Colors.orange,
+      ),
+      child: _isSelected ? const Text("Terpilih") : const Text("Pilih"),
+      // child: const Text("Pilih"),
+      onPressed: () {
+        setState(() {
+          _isSelected = !_isSelected;
+        });
+      },
     );
   }
 }
