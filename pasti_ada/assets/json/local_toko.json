@@ -1,0 +1,237 @@
+{
+  "etalastore": [
+    {
+      "kategori": [
+        {
+          "fashion": [
+            {
+              "id_toko": "HAh5QbSMCb",
+              "nama_toko": "Best Brand",
+              "gambar_toko": "https://1.bp.blogspot.com/-ACgFnQBjG3E/YYsfu-ZMHaI/AAAAAAAABTw/GFbKwKFVQjgOEV1A_hg1WqZpXkAE7YKhwCLcBGAsYHQ/s933/desain%2Btoko%2Bbaju.jpg",
+              "alamat_toko": "",
+              "description_toko": "",
+              "rating_toko": "4.5",
+              "barang": [
+                {
+                  "id_barang": "iZXKFG3BPM",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                },
+                {
+                  "id_barang": "V9cVPnJr8w",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                },
+                {
+                  "id_barang": "2NyC9mZGpx",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                },
+                {
+                  "id_barang": "v7LiwRJncS",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                },
+                {
+                  "id_barang": "zGek6kGrvj",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                }
+              ]
+            },
+            {
+              "id_toko": "iUjbnhvCWL",
+              "nama_toko": "Surisa",
+              "gambar_toko": "https://www.tuntasonline.com/sites/default/files/articles/b491f547-b9cc-4619-a5be-cdd3e573aa74.jpg",
+              "alamat_toko": "",
+              "description_toko": "",
+              "rating_toko": "3.9",
+              "barang": [
+                {
+                  "id_barang": "HSFmhT5Gpf",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                },
+                {
+                  "id_barang": "YdGBx7qVby",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                },
+                {
+                  "id_barang": "ErQf2X7ECx",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                },
+                {
+                  "id_barang": "MarvzVHvep",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                },
+                {
+                  "id_barang": "bU5LEJYKry",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                }
+              ]
+            },
+            {
+              "id_toko": "fqJkT5C4f4",
+              "nama_toko": "Diesel",
+              "gambar_toko": "https://media.beritagar.id/2018-02/3c18122fbb8d2e5516179eece56cbe0a.jpg",
+              "alamat_toko": "",
+              "description_toko": "",
+              "rating_toko": "4.4",
+              "barang": [
+                {
+                  "id_barang": "RZCthGt3PG",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                },
+                {
+                  "id_barang": "MGvFtjqDhx",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                },
+                {
+                  "id_barang": "p9mUnzTQeg",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                },
+                {
+                  "id_barang": "rvapXnpCDL",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                },
+                {
+                  "id_barang": "Lh4CqBu2tJ",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                }
+              ]
+            },
+            {
+              "id_toko": "B4Eqhrfkyf",
+              "nama_toko": "Off-white",
+              "gambar_toko": "https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1554865193/uqazwogszngqv6b1mvuy.jpg",
+              "alamat_toko": "",
+              "description_toko": "",
+              "rating_toko": "3.7",
+              "barang": [
+                {
+                  "id_barang": "Veipu5xLnK",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                },
+                {
+                  "id_barang": "XS8JBVHBnS",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                },
+                {
+                  "id_barang": "BJrdSxY935",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                },
+                {
+                  "id_barang": "X4qUck4aXc",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                },
+                {
+                  "id_barang": "TrPNeW3NwA",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                }
+              ]
+            },
+            {
+              "id_toko": "g3ED8GLkL7",
+              "nama_toko": "Vero Moda",
+              "gambar_toko": "https://media.istockphoto.com/id/1298105262/id/foto/jalan-kosong-di-depan-toko-fashion-tertutup-vero-moda-berdasarkan-pandemi-corona.jpg?s=1024x1024&w=is&k=20&c=eLcGOzBA0AhXv6jMCpI5JTmkVn3R0mH3vbL31F3eyVM=",
+              "alamat_toko": "",
+              "description_toko": "",
+              "rating_toko": "4.9",
+              "barang": [
+                {
+                  "id_barang": "VkLSYqNKin",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                },
+                {
+                  "id_barang": "2jhBa4rRG6",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                },
+                {
+                  "id_barang": "rhNGu4zBLR",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                },
+                {
+                  "id_barang": "5EF6RyYXMK",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                },
+                {
+                  "id_barang": "ZxR5T7Y4ta",
+                  "nama_barang": "",
+                  "gambar_barang": "",
+                  "harga_barang": "Rp. 0.000",
+                  "merek_barang": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
