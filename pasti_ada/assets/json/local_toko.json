@@ -1,0 +1,216 @@
+{
+    "etalastore": [
+        {
+            "kategori": [
+                {
+                    "perabotan": [
+                    {
+                        "id_toko": "",
+                        "nama_toko": "",
+                        "gambar_toko": "",
+                        "alamat_toko": "",
+                        "description_toko": "",
+                        "rating_toko": "",
+                        "barang": [
+                        {
+                            "id_barang": "",
+                            "nama_barang": "",
+                            "gambar_barang": "",
+                            "harga_barang": "Rp. 0.000",
+                            "merek_barang": ""
+                        },
+                        {
+                            "id_barang": "",
+                            "nama_barang": "",
+                            "gambar_barang": "",
+                            "harga_barang": "Rp. 0.000",
+                            "merek_barang": ""
+                        }
+                        ]
+                    },
+                    {
+                        "id_toko": "",
+                        "nama_toko": "",
+                        "gambar_toko": "",
+                        "alamat_toko": "",
+                        "description_toko": "",
+                        "rating_toko": "",
+                        "barang": [
+                        {
+                            "id_barang": "",
+                            "nama_barang": "",
+                            "gambar_barang": "",
+                            "harga_barang": "Rp. 0.000",
+                            "merek_barang": ""
+                        },
+                        {
+                            "id_barang": "",
+                            "nama_barang": "",
+                            "gambar_barang": "",
+                            "harga_barang": "Rp. 0.000",
+                            "merek_barang": ""
+                        }
+                        ]
+                    }
+                    ]
+                },
+                {
+                    "bahan_makanan": [
+                    {
+                        "id_toko": "",
+                        "nama_toko": "",
+                        "gambar_toko": "",
+                        "alamat_toko": "",
+                        "description_toko": "",
+                        "rating_toko": "",
+                        "barang": [
+                        {
+                            "id_barang": "",
+                            "nama_barang": "",
+                            "gambar_barang": "",
+                            "harga_barang": "Rp. 0.000",
+                            "merek_barang": ""
+                        },
+                        {
+                            "id_barang": "",
+                            "nama_barang": "",
+                            "gambar_barang": "",
+                            "harga_barang": "Rp. 0.000",
+                            "merek_barang": ""
+                        }
+                        ]
+                    },
+                    {
+                        "id_toko": "",
+                        "nama_toko": "",
+                        "gambar_toko": "",
+                        "alamat_toko": "",
+                        "description_toko": "",
+                        "rating_toko": "",
+                        "barang": [
+                        {
+                            "id_barang": "",
+                            "nama_barang": "",
+                            "gambar_barang": "",
+                            "harga_barang": "Rp. 0.000",
+                            "merek_barang": ""
+                        },
+                        {
+                            "id_barang": "",
+                            "nama_barang": "",
+                            "gambar_barang": "",
+                            "harga_barang": "Rp. 0.000",
+                            "merek_barang": ""
+                        }
+                        ]
+                    }
+                    ]
+                },
+                {
+                    "bahan_bangunan": [
+                    {
+                        "id_toko": "",
+                        "nama_toko": "",
+                        "gambar_toko": "",
+                        "alamat_toko": "",
+                        "description_toko": "",
+                        "rating_toko": "",
+                        "barang": [
+                        {
+                            "id_barang": "",
+                            "nama_barang": "",
+                            "gambar_barang": "",
+                            "harga_barang": "Rp. 0.000",
+                            "merek_barang": ""
+                        },
+                        {
+                            "id_barang": "",
+                            "nama_barang": "",
+                            "gambar_barang": "",
+                            "harga_barang": "Rp. 0.000",
+                            "merek_barang": ""
+                        }
+                        ]
+                    },
+                    {
+                        "id_toko": "",
+                        "nama_toko": "",
+                        "gambar_toko": "",
+                        "alamat_toko": "",
+                        "description_toko": "",
+                        "rating_toko": "",
+                        "barang": [
+                        {
+                            "id_barang": "",
+                            "nama_barang": "",
+                            "gambar_barang": "",
+                            "harga_barang": "Rp. 0.000",
+                            "merek_barang": ""
+                        },
+                        {
+                            "id_barang": "",
+                            "nama_barang": "",
+                            "gambar_barang": "",
+                            "harga_barang": "Rp. 0.000",
+                            "merek_barang": ""
+                        }
+                        ]
+                    }
+                    ]
+                },
+                {
+                    "fashion": [
+                    {
+                        "id_toko": "",
+                        "nama_toko": "",
+                        "gambar_toko": "",
+                        "alamat_toko": "",
+                        "description_toko": "",
+                        "rating_toko": "",
+                        "barang": [
+                        {
+                            "id_barang": "",
+                            "nama_barang": "",
+                            "gambar_barang": "",
+                            "harga_barang": "Rp. 0.000",
+                            "merek_barang": ""
+                        },
+                        {
+                            "id_barang": "",
+                            "nama_barang": "",
+                            "gambar_barang": "",
+                            "harga_barang": "Rp. 0.000",
+                            "merek_barang": ""
+                        }
+                        ]
+                    },
+                    {
+                        "id_toko": "",
+                        "nama_toko": "",
+                        "gambar_toko": "",
+                        "alamat_toko": "",
+                        "description_toko": "",
+                        "rating_toko": "",
+                        "barang": [
+                        {
+                            "id_barang": "",
+                            "nama_barang": "",
+                            "gambar_barang": "",
+                            "harga_barang": "Rp. 0.000",
+                            "merek_barang": ""
+                        },
+                        {
+                            "id_barang": "",
+                            "nama_barang": "",
+                            "gambar_barang": "",
+                            "harga_barang": "Rp. 0.000",
+                            "merek_barang": ""
+                        }
+                        ]
+                    }
+                    ]
+                }
+            ]
+        }
+    ]
+}
