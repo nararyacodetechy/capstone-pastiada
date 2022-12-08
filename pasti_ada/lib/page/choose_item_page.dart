@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:pasti_ada/page/confirm_item_page.dart';
 import 'package:pasti_ada/widget/widget_card_choose_item.dart';
 
-class SelectItemPage extends StatelessWidget {
-  const SelectItemPage({super.key});
+class ChooseItemPage extends StatelessWidget {
+  const ChooseItemPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -24,6 +24,7 @@ class SelectItemPage extends StatelessWidget {
                         color: Colors.white,
                       ),
                     ),
+                    Text("Pilih Barang"),
                     CircleAvatar(
                       backgroundColor: Colors.orange,
                       child: Icon(Icons.person, color: Colors.white),
