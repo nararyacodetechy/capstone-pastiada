@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:pasti_ada/page/choose_item_page.dart';
+import 'package:pasti_ada/page/home_page.dart';
+
+import 'common/styles.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,11 +13,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        colorScheme: ColorScheme.fromSwatch().copyWith(primary: primaryColor),
       ),
-      home: const ChooseItemPage(),
+      home: const HomePage(),
     );
   }
 }

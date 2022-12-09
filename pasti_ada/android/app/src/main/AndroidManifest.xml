@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.pasti_ada">
    <application
-        android:label="pasti_ada"
+        android:label="Pasti Ada"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
