@@ -78,7 +78,7 @@ class _DetailPageState extends State<DetailPage> {
                             "IJ Grosir",
                             style: TextStyle(
                                 color: Colors.black,
-                                fontWeight: FontWeight.bold),
+                                fontWeight: FontWeight.bold, fontSize: 25),
                           )),
                       Expanded(
                         child: Column(
