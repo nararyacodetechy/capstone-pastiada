@@ -1,22 +1,20 @@
-import 'package:flutter/material.dart';
-import 'package:pasti_ada/page/home_page.dart';
 
-import 'common/styles.dart';
+import 'package:flutter/material.dart';
+import 'package:pasti_ada/page/detail_page.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+   MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSwatch().copyWith(primary: primaryColor),
       ),
-      home: const HomePage(),
+      home: DetailPage()
     );
   }
 }
