@@ -13,6 +13,8 @@ final TextStyle fontSubtitleMedium = GoogleFonts.poppins(
     fontSize: 13, fontWeight: FontWeight.w400, letterSpacing: 0.15);
 final TextStyle fontbodyText = GoogleFonts.poppins(
     fontSize: 12, fontWeight: FontWeight.w400, letterSpacing: 0.25);
+final TextStyle fontbodyTextSmall = GoogleFonts.poppins(
+    fontSize: 10, fontWeight: FontWeight.w400, letterSpacing: 0.25);
 
 // text theme
 final kTextTheme = TextTheme(
