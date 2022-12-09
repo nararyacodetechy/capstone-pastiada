@@ -15,7 +15,12 @@ class ListToko extends StatefulWidget {
 
 class _ListTokoState extends State<ListToko> {
   final ListTokoController listTokoController = Get.put(ListTokoController());
-  List<String> kategori = ["Kuliner", "Perabotan", "Bahan Makan", "Fashion"];
+  List<String> kategori = [
+    "Bahan Bangunan",
+    "Perabotan",
+    "Bahan Makan",
+    "Fashion"
+  ];
   @override
   void initState() {
     super.initState();
