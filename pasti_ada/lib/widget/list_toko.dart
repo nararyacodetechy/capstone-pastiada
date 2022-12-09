@@ -1,39 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:pasti_ada/common/styles.dart';
+import 'package:pasti_ada/data/toko_terdekat.dart';
 import 'package:pasti_ada/widget/multi_platform.dart';
 
 class ListToko extends StatelessWidget {
   const ListToko({Key? key}) : super(key: key);
-
-  Row _buildSubHeading({required String title, required Function() onTap}) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: [
-        Text(
-          title,
-          style: fontSubtitleMedium,
-        ),
-        InkWell(
-          onTap: onTap,
-          child: Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Row(
-              children: [
-                Text(
-                  'Lihat Lebih Lengkap',
-                  style: fontSubtitleMedium,
-                ),
-                const Icon(
-                  Icons.arrow_forward_ios,
-                  color: iconColor,
-                )
-              ],
-            ),
-          ),
-        ),
-      ],
-    );
-  }
 
   Widget _androidStyle(BuildContext context) {
     return Scaffold(
@@ -59,7 +30,13 @@ class ListToko extends StatelessWidget {
           )
         ],
       ),
-      body: Padding(
+      body: _buildListToko(context),
+    );
+  }
+
+  Widget _buildListToko(BuildContext context) {
+    return Material(
+      child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: SingleChildScrollView(
           child: Stack(
@@ -68,7 +45,7 @@ class ListToko extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Image.asset(
-                    'assets/banner.png',
+                    'assets/icon/banner.png',
                   ),
                   const SizedBox(
                     height: 120,
@@ -137,7 +114,7 @@ class ListToko extends StatelessWidget {
                           Column(
                             children: <Widget>[
                               Image.asset(
-                                'assets/barangbekas.png',
+                                'assets/icon/barangbekas.png',
                                 height: 30,
                                 width: 30,
                               ),
@@ -153,7 +130,7 @@ class ListToko extends StatelessWidget {
                           Column(
                             children: <Widget>[
                               Image.asset(
-                                'assets/teknologi.png',
+                                'assets/icon/teknologi.png',
                                 height: 30,
                                 width: 30,
                               ),
@@ -169,7 +146,7 @@ class ListToko extends StatelessWidget {
                           Column(
                             children: <Widget>[
                               Image.asset(
-                                'assets/snack.png',
+                                'assets/icon/snack.png',
                                 height: 30,
                                 width: 30,
                               ),
@@ -185,7 +162,7 @@ class ListToko extends StatelessWidget {
                           Column(
                             children: <Widget>[
                               Image.asset(
-                                'assets/pakaian.png',
+                                'assets/icon/pakaian.png',
                                 height: 30,
                                 width: 30,
                               ),
@@ -211,7 +188,7 @@ class ListToko extends StatelessWidget {
                           Column(
                             children: <Widget>[
                               Image.asset(
-                                'assets/perabotan.png',
+                                'assets/icon/perabotan.png',
                                 height: 30,
                                 width: 30,
                               ),
@@ -227,7 +204,7 @@ class ListToko extends StatelessWidget {
                           Column(
                             children: <Widget>[
                               Image.asset(
-                                'assets/otomotif.png',
+                                'assets/icon/otomotif.png',
                                 height: 30,
                                 width: 30,
                               ),
@@ -243,7 +220,7 @@ class ListToko extends StatelessWidget {
                           Column(
                             children: <Widget>[
                               Image.asset(
-                                'assets/kuliner.png',
+                                'assets/icon/kuliner.png',
                                 height: 30,
                                 width: 30,
                               ),
@@ -259,7 +236,7 @@ class ListToko extends StatelessWidget {
                           Column(
                             children: <Widget>[
                               Image.asset(
-                                'assets/lainnya.png',
+                                'assets/icon/lainnya.png',
                                 height: 30,
                                 width: 30,
                               ),
@@ -285,6 +262,36 @@ class ListToko extends StatelessWidget {
     );
   }
 
+  Row _buildSubHeading({required String title, required Function() onTap}) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: [
+        Text(
+          title,
+          style: fontbodyText,
+        ),
+        InkWell(
+          onTap: onTap,
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Row(
+              children: [
+                Text(
+                  'Lihat Lebih Lengkap',
+                  style: fontbodyText,
+                ),
+                const Icon(
+                  Icons.arrow_forward_ios,
+                  color: iconColor,
+                )
+              ],
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return MultiPlatform(
@@ -298,33 +305,56 @@ class ItemList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      height: 200,
-      child: ListView.builder(
-        scrollDirection: Axis.horizontal,
-        itemBuilder: (context, index) {
-          return InkWell(
-            onTap: () {},
-            child: Card(
-              child: Column(
-                children: [
-                  Image.asset(
-                    'assets/gas.png',
-                    height: 150,
-                    width: 180,
-                  ),
-                  const Expanded(
-                    child: Text(
-                      'Gas 3kg\nGas untuk kita semua okee',
+    return FutureBuilder<String>(
+        future: DefaultAssetBundle.of(context)
+            .loadString('assets/json/toko_terdekat.json'),
+        builder: (context, snapshot) {
+          final List<TokoTerdekat> tokoTerdekat = parseArticles(snapshot.data);
+          return SizedBox(
+            height: 200,
+            child: ListView.builder(
+              scrollDirection: Axis.horizontal,
+              itemBuilder: (context, index) {
+                final toko = tokoTerdekat[index];
+                return InkWell(
+                  onTap: () {},
+                  child: Card(
+                    child: Column(
+                      children: [
+                        Image.network(
+                          toko.gambar,
+                          height: 100,
+                          width: 150,
+                        ),
+                        const SizedBox(
+                          height: 8,
+                        ),
+                        Text(
+                          "${toko.nama}\n${toko.alamat}",
+                          style: fontCardText,
+                        ),
+                        Expanded(
+                          child: Row(
+                            children: [
+                              const Icon(
+                                Icons.star,
+                                color: iconColor,
+                              ),
+                              Text(
+                                toko.rating,
+                                style: fontCardText,
+                              )
+                            ],
+                          ),
+                        ),
+                      ],
                     ),
                   ),
-                ],
-              ),
+                );
+              },
+              itemCount: tokoTerdekat.length,
             ),
           );
-        },
-        itemCount: 10,
-      ),
-    );
+        });
   }
 }
