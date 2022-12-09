@@ -89,6 +89,77 @@
                     }
                   ]
                 },
+                Alif :
+
+{
+          "bahan_bangunan": [
+            {
+              "id_toko": "t3kUHbhxc8",
+              "nama_toko": "Makmur Abadi Bangunan",
+              "gambar_toko": "https://tempat.info/wp-content/uploads/2021/06/toko-bangunan-bali-10.jpg",
+              "alamat_toko": "Jalan Teuku Umar Barat No. 888, Pemecutan Klod, Kec. Denpasar Bar., Kota Denpasar, Bali 80119",
+              "description_toko": "Toko yang menjual bahan bangunan",
+              "rating_toko": "4,5",
+              "barang": [
+                {
+                  "id_barang": "SRrXqGCgWV",
+                  "nama_barang": "Batu Bata",
+                  "gambar_barang": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/8/24/573c8099-2db3-4fa6-9a9b-f0da5127a825.jpg",
+                  "harga_barang": "Rp. 2.500",
+                  "merek_barang": "Samba"
+                },
+                {
+                  "id_barang": "i5NJAzyA9F",
+                  "nama_barang": "Semen",
+                  "gambar_barang": "https://static.bmdstatic.com/pk/product/large/5d3ad31035cb4.jpg",
+                  "harga_barang": "Rp. 60.000",
+                  "merek_barang": "Tiga Roda"
+                }
+                {
+                  "id_barang": "82CNmQRBtw”,
+                  "nama_barang": "Batako",
+                  "gambar_barang": "https://pavingblockindonesia.com/wp-content/uploads/2016/11/jual-batako-bekasi.jpg",
+                  "harga_barang": "Rp. 3.300",
+                  "merek_barang": "batako"
+                }
+
+              ]
+            },
+            {
+              "id_toko": "2NbgCM5LRS",
+              "nama_toko": "Karya Utama",
+              "gambar_toko": "https://tempat.info/wp-content/uploads/2021/06/toko-bangunan-bali-9.jpg",
+              "alamat_toko": "JL. Raya Canggu No.27, Kerobokan, Kec. Kuta Utara, Kabupaten Badung, Bali 80361",
+              "description_toko": "Toko yang menjual bahan bangunan",
+              "rating_toko": "4.3",
+              "barang": [
+                {
+                  "id_barang": "ZqwgwAuR4h",
+                  "nama_barang": "Kayu",
+                  "gambar_barang": "https://images.tokopedia.net/img/cache/500-square/product-1/2019/1/4/5467638/5467638_ac4ee3d9-faa2-45e8-a173-438b87c6b984_1040_780.jpeg",
+                  "harga_barang": "Rp. 6.500",
+                  "merek_barang": ""
+                },
+                {
+                  "id_barang": "wUrDP6eKXC",
+                  "nama_barang": "Bambu",
+                  "gambar_barang": "https://images.tokopedia.net/img/cache/500-square/product-1/2017/2/22/1900466/1900466_87c23301-7353-44ed-b76f-c57801d1592f.jpg",
+                  "harga_barang": "Rp. 18.000",
+                  "merek_barang": ""
+                }
+                {
+                  "id_barang": "yYJyqWSYbk",
+                  "nama_barang": "Genting",
+                  "gambar_barang": "https://berita.99.co/wp-content/uploads/2019/04/harga-genteng-header.jpg",
+                  "harga_barang": "Rp. 12.000",
+                  "merek_barang": "genting"
+                }
+
+              ]
+            }
+          ]
+        },
+
                 {
                     "bahan_makanan": [
                         {
