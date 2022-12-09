@@ -1,0 +1,66 @@
+{
+    "bahan_makanan": [
+        {
+            "id_toko": "GDEXvePvq2",
+            "nama_toko": "Toko Susi",
+            "gambar_toko": "https://www.bfi.co.id/Blog/Blog%20New/Warung%20sembako%20modal%205%20juta/Buka%20Warung%20Sembako%20Modal%205%20Juta.jpg",
+            "alamat_toko": "Jalan Pancasila II",
+            "description_toko": "Toko yang menjual sembako dan keperluan sehari-hari",
+            "rating_toko": "4.2",
+            "barang": [
+                {
+                    "id_barang": "79Qfd6Jd9E",
+                    "nama_barang": "Mie Instan 1 Dus",
+                    "gambar_barang": "https://cf.shopee.co.id/file/30c58d367f87baf53b3502979860dee8",
+                    "harga_barang": 50.000,
+                    "merek_barang": "Indomie"
+                },
+                {
+                    "id_barang": "QXMx2kn7ve",
+                    "nama_barang": "Gula 1 kg",
+                    "gambar_barang": "https://images.tokopedia.net/img/cache/700/VqbcmM/2020/11/12/2d0b076a-2ab6-4c7f-928e-fa35a2fbc128.jpg",
+                    "harga_barang": 17.000,
+                    "merek_barang": "Gulaku"
+                },
+                {
+                    "id_barang": "vUWFu3tZN3",
+                    "nama_barang": "Kecap Manis 520 ml",
+                    "gambar_barang": "https://www.bango.co.id/gfx/product/temp_thumb-1625539770.png",
+                    "harga_barang": 23.000,
+                    "merek_barang": "Bango"
+                }
+            ]
+        },
+        {
+            "id_toko": "R7MkABVrwG",
+            "nama_toko": "Warung Mas Mojo",
+            "gambar_toko": "https://bisnisukm.com/uploads/2017/04/6-tips-promosi-agar-bisnis-warung-sembako-laris-dan-anti-bangkrut.jpg",
+            "alamat_toko": "Jalan Bung Tomo",
+            "description_toko": "Toko yang menjual sembako dan keperluan sehari-hari",
+            "rating_toko": "3.8",
+            "barang": [
+                {
+                    "id_barang": "ZhzQVtjbBx",
+                    "nama_barang": "Minyak Makan 1 Liter",
+                    "gambar_barang": "https://cf.shopee.co.id/file/9fdfce216255b7b779e5ce9661cf9bc3",
+                    "harga_barang": 18.000,
+                    "merek_barang": "Bimoli"
+                },
+                {
+                    "id_barang": "RVBYfAaJ8M",
+                    "nama_barang": "Beras 10 Kg",
+                    "gambar_barang": "https://cf.shopee.co.id/file/fe99fe0c6f22a0bd46c79b833ff6ff70",
+                    "harga_barang": 90.000,
+                    "merek_barang": "Selancar"
+                },
+                {
+                    "id_barang": "bPQwAudpBm",
+                    "nama_barang": "Sasa 1 Kg",
+                    "gambar_barang": "http://www.cvbagus.co.id/wp-content/uploads/2017/07/MSG-1kg.jpg",
+                    "harga_barang": 50.000,
+                    "merek_barang": "Sasa"
+                }
+            ]
+        }
+    ]
+}
