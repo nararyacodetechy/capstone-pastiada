@@ -2,32 +2,17 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:shop/common/constants.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:pasti_ada/assets/json/local_toko.dart';
+import 'package:pasti_ada/data/data_list_toko.dart;
 import 'package:get/get.dart';
 
 //create statefull widget listToko
 class ListToko extends StatefulWidget {
-  final int id;
-  const ListToko({required this.id});
+  ListToko ({Key? key}) : super(key: key);
   @override
-  _ListTokoState createState() => _ListTokoState();
+  State<ListToko> createState() => _ListTokoState();
 }
 
-class _ListTokoState extends State<ListToko> {
-  final ListTokoController listTokoController = Get.put(ListTokoController());
-  List<String> kategori = [
-    "Bahan Bangunan",
-    "Perabotan",
-    "Bahan Makan",
-    "Fashion"
-  ];
-  @override
-  void initState() {
-    super.initState();
-    Get.delete<ListTokoController>();
-    listTokoController.fetchListToko(widget.id);
-  }
-
+class _ListTokoState extends State<ListTokoState> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -289,4 +274,5 @@ class _ListTokoState extends State<ListToko> {
           ),
         ));
   }
+}
 }
