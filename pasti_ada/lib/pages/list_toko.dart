@@ -2,7 +2,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:shop/common/constants.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:shop/controllers/list_toko.dart';
+import 'package:pasti_ada/assets/json/local_toko.dart';
 import 'package:get/get.dart';
 
 //create statefull widget listToko

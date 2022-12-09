@@ -1,0 +1,42 @@
+[
+    {
+        "id": "QbAZgny65TNDP3a",
+        "nama": "Warung Bung Ujang",
+        "alamat": "Jl. Mawar",
+        "deskripsi": "warung yang menjual barang sehari-hari",
+        "rating": "4.1",
+        "gambar": "https://cdnwpseller.gramedia.net/wp-content/uploads/2022/02/04000402/kelompokkan-barang.jpg"
+    },
+    {
+        "id": "Xqya5tYb5tNBYCh",
+        "nama": "Toserba Mutiara",
+        "alamat": "Jl. Jendral Sudirman",
+        "deskripsi": "Toko serba ada",
+        "rating": "4.5",
+        "gambar": "https://www.cendananews.com/wp-content/uploads/2019/01/IMG_20190123_164220_HHT.jpg"
+    },
+    {
+        "id": "uUfKHhunmmYDaJp",
+        "nama": "Warung Van Houten",
+        "alamat": "Jl. Raya III",
+        "deskripsi": "warung yang menjual barang sembako",
+        "rating": "4.7",
+        "gambar": "https://swamediainc.storage.googleapis.com/swa.co.id/wp-content/uploads/2020/03/09132256/warung-mitra-bukalapak.jpg"
+    },
+    {
+        "id": "mhej7PLUBtcznyg",
+        "nama": "Warung Pak RT",
+        "alamat": "Jl. Pattimura No. 1521",
+        "deskripsi": "warung yang menjual jajanan anak kecil",
+        "rating": "4.9",
+        "gambar": "https://i0.wp.com/inisiatifnews.com/wp-content/uploads/2021/09/warung-rakyat.jpg?fit=600%2C450&ssl=1"
+    },
+    {
+        "id": "xymkxNNUiRvvprt",
+        "nama": "Warung Koko Kevin",
+        "alamat": "Jl. Basuki Rahmat",
+        "deskripsi": "warung yang menjual sembako",
+        "rating": "5.0",
+        "gambar": "https://assets.promediateknologi.com/crop/0x0:0x0/x/photo/2022/11/05/3705041661.jpg"
+    }
+]
