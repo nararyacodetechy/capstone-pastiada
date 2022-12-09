@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pasti_ada/common/styles.dart';
+import 'package:pasti_ada/data/barang_terlaris.dart';
 import 'package:pasti_ada/data/toko_terdekat.dart';
 import 'package:pasti_ada/widget/multi_platform.dart';
 
@@ -56,7 +57,7 @@ class ListToko extends StatelessWidget {
                       onTap: () {},
                     ),
                   ),
-                  const ItemList(),
+                  const ItemTokoList(),
                   Container(
                     child: _buildSubHeading(
                       title:
@@ -64,7 +65,7 @@ class ListToko extends StatelessWidget {
                       onTap: () {},
                     ),
                   ),
-                  const ItemList(),
+                  const ItemBarangList(),
                 ],
               ),
               Card(
@@ -300,8 +301,8 @@ class ListToko extends StatelessWidget {
   }
 }
 
-class ItemList extends StatelessWidget {
-  const ItemList({super.key});
+class ItemTokoList extends StatelessWidget {
+  const ItemTokoList({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -309,7 +310,7 @@ class ItemList extends StatelessWidget {
         future: DefaultAssetBundle.of(context)
             .loadString('assets/json/toko_terdekat.json'),
         builder: (context, snapshot) {
-          final List<TokoTerdekat> tokoTerdekat = parseArticles(snapshot.data);
+          final List<TokoTerdekat> tokoTerdekat = parseToko(snapshot.data);
           return SizedBox(
             height: 200,
             child: ListView.builder(
@@ -353,6 +354,52 @@ class ItemList extends StatelessWidget {
                 );
               },
               itemCount: tokoTerdekat.length,
+            ),
+          );
+        });
+  }
+}
+
+class ItemBarangList extends StatelessWidget {
+  const ItemBarangList({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return FutureBuilder<String>(
+        future: DefaultAssetBundle.of(context)
+            .loadString('assets/json/barang_terlaris.json'),
+        builder: (context, snapshot) {
+          final List<BarangTerlaris> barangTerlaris =
+              parseBarang(snapshot.data);
+          return SizedBox(
+            height: 200,
+            child: ListView.builder(
+              scrollDirection: Axis.horizontal,
+              itemBuilder: (context, index) {
+                final barang = barangTerlaris[index];
+                return InkWell(
+                  onTap: () {},
+                  child: Card(
+                    child: Column(
+                      children: [
+                        Image.network(
+                          barang.gambar,
+                          height: 100,
+                          width: 150,
+                        ),
+                        const SizedBox(
+                          height: 8,
+                        ),
+                        Text(
+                          "${barang.nama}\n${barang.merk}\nRp.${barang.harga}",
+                          style: fontCardText,
+                        ),
+                      ],
+                    ),
+                  ),
+                );
+              },
+              itemCount: barangTerlaris.length,
             ),
           );
         });

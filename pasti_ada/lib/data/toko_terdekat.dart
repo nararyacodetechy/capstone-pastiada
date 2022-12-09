@@ -42,7 +42,7 @@ class TokoTerdekat {
       };
 }
 
-List<TokoTerdekat> parseArticles(String? json) {
+List<TokoTerdekat> parseToko(String? json) {
   if (json == null) {
     return [];
   }
