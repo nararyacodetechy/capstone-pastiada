@@ -22,8 +22,7 @@ class _DetailPageState extends State<DetailPage> {
                 decoration: BoxDecoration(
                     image: DecorationImage(
                         image: NetworkImage(
-                            "https://1.bp.blogspot.com/-PcMkaJvdwOc/Xbmv9nkuBYI/AAAAAAAABOk/EADUd6rT4k4BzlfV36JfxyDjap_yWMqdwCLcBGAsYHQ/s1600/Rincian%2BModal%2BUsaha%2BMinimarket%2BMandiri%2B%2528Panduan%2BLengkap%2529%2B%25283%2529.jpg"),
-                        fit: BoxFit.cover)),
+                            "https://1.bp.blogspot.com/-PcMkaJvdwOc/Xbmv9nkuBYI/AAAAAAAABOk/EADUd6rT4k4BzlfV36JfxyDjap_yWMqdwCLcBGAsYHQ/s1600/Rincian%2BModal%2BUsaha%2BMinimarket%2BMandiri%2B%2528Panduan%2BLengkap%2529%2B%25283%2529.jpg"), fit: BoxFit.cover)),
               ),
               Row(
                 children: [
@@ -56,22 +55,7 @@ class _DetailPageState extends State<DetailPage> {
                       children: [
                         InkWell(
                           child: Icon(
-                            Icons.share_sharp,
-                            color: Colors.orange,
-                          ),
-                        ),
-                        Container(
-                          margin: EdgeInsets.only(left: 5, right: 5),
-                          child: InkWell(
-                            child: Icon(
-                              Icons.favorite_border,
-                              color: Colors.orange,
-                            ),
-                          ),
-                        ),
-                        InkWell(
-                          child: Icon(
-                            Icons.account_circle,
+                            Icons.favorite_border,
                             color: Colors.orange,
                           ),
                         ),
@@ -86,13 +70,30 @@ class _DetailPageState extends State<DetailPage> {
               margin: EdgeInsets.all(20),
               child: Column(
                 children: [
-                  Container(
-                      width: MediaQuery.of(context).size.width,
-                      child: Text(
-                        "IJ Grosir",
-                        style: TextStyle(
-                            color: Colors.black, fontWeight: FontWeight.bold),
-                      )),
+                  Row(
+                    children: [
+                      Expanded(
+                          flex: 5,
+                          child: Text(
+                            "IJ Grosir",
+                            style: TextStyle(
+                                color: Colors.black,
+                                fontWeight: FontWeight.bold, fontSize: 25),
+                          )),
+                      Expanded(
+                        child: Column(
+                          children: [
+                            InkWell(
+                                onTap: () {},
+                                child: Icon(
+                                  Icons.business_center,
+                                  color: Colors.orange,
+                                )),
+                          ],
+                        ),
+                      )
+                    ],
+                  ),
                   Row(
                     children: [
                       Icon(
@@ -130,25 +131,10 @@ class _DetailPageState extends State<DetailPage> {
                             ],
                           ),
                         ),
-                        Text("07:00 - 21:00 WITA")
+                        Text("07:00 - 22:00 WITA")
                       ],
                     ),
                   ),
-                  Container(
-                      margin: EdgeInsets.only(top: 20),
-                      width: MediaQuery.of(context).size.width,
-                      child: Text(
-                        "Deskripsi Toko",
-                        style: TextStyle(
-                            color: Colors.black, fontWeight: FontWeight.bold),
-                      )),
-                  Container(
-                      margin: EdgeInsets.only(top: 5),
-                      width: MediaQuery.of(context).size.width,
-                      child: Text(
-                        "Menjual barang kebutuhan untuk kebutuhan sehari - hari seperti bahan dapur, alat masak, perlengkapan mandi, minuman dan makanan cepat saji lainnya.",
-                        style: TextStyle(color: Colors.black),
-                      )),
                   Container(
                     margin: EdgeInsets.only(top: 10),
                     child: Row(
@@ -182,102 +168,24 @@ class _DetailPageState extends State<DetailPage> {
                                 ],
                               ),
                             )),
-                        Expanded(
-                            child: Row(
-                          children: [
-                            InkWell(
-                              child: Icon(
-                                Icons.favorite_outline,
-                                color: Colors.red,
-                                size: 18,
-                              ),
-                            ),
-                            Container(
-                              margin: EdgeInsets.only(left: 5, right: 5),
-                              child: InkWell(
-                                child: Icon(
-                                  Icons.comment,
-                                  color: Colors.red,
-                                  size: 18,
-                                ),
-                              ),
-                            ),
-                            InkWell(
-                              child: Icon(
-                                Icons.share,
-                                color: Colors.red,
-                                size: 18,
-                              ),
-                            )
-                          ],
-                        )),
                       ],
                     ),
                   ),
                   Container(
-                    margin: EdgeInsets.only(top: 20),
-                    padding: EdgeInsets.all(10),
-                    width: MediaQuery.of(context).size.width,
-                    child: Row(
-                      children: [
-                        Expanded(
-                          child: Column(
-                            children: [
-                              IconButton(
-                                  onPressed: () {},
-                                  icon: Icon(
-                                    Icons.route,
-                                    color: Colors.orange,
-                                  )),
-                              Text("Rute")
-                            ],
-                          ),
-                        ),
-                        Expanded(
-                          child: Column(
-                            children: [
-                              IconButton(
-                                  onPressed: () {},
-                                  icon: Icon(
-                                    Icons.comment_sharp,
-                                    color: Colors.orange,
-                                  )),
-                              Text("Ulasan")
-                            ],
-                          ),
-                        ),
-                        Expanded(
-                          child: Column(
-                            children: [
-                              IconButton(
-                                  onPressed: () {},
-                                  icon: Icon(
-                                    Icons.business_center,
-                                    color: Colors.orange,
-                                  )),
-                              Text("Rute")
-                            ],
-                          ),
-                        ),
-                        Expanded(
-                          child: Column(
-                            children: [
-                              IconButton(
-                                  onPressed: () {},
-                                  icon: Icon(
-                                    Icons.date_range,
-                                    color: Colors.orange,
-                                  )),
-                              Text("Jadwal")
-                            ],
-                          ),
-                        ),
-                      ],
-                    ),
-                    decoration: BoxDecoration(
-                        border: Border.all(width: 1),
-                        borderRadius: BorderRadius.circular(10)),
-                  )
+                      margin: EdgeInsets.only(top: 20),
+                      width: MediaQuery.of(context).size.width,
+                      child: Text(
+                        "Deskripsi Toko",
+                        style: TextStyle(
+                            color: Colors.black, fontWeight: FontWeight.bold),
+                      )),
+                  Container(
+                      margin: EdgeInsets.only(top: 5),
+                      width: MediaQuery.of(context).size.width,
+                      child: Text(
+                        "Menjual barang kebutuhan untuk kebutuhan sehari - hari seperti bahan dapur, alat masak, perlengkapan mandi, minuman dan makanan cepat saji lainnya.",
+                        style: TextStyle(color: Colors.black),
+                      )),
                 ],
               ))
         ],
