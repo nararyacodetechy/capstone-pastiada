@@ -2,10 +2,9 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:shop/common/constants.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:pasti_ada/data/data_list_toko.dart;
+import 'package:pasti_ada/data/data_list_toko.dart';
 import 'package:get/get.dart';
 
-//create statefull widget listToko
 class ListToko extends StatefulWidget {
   ListToko ({Key? key}) : super(key: key);
   @override
@@ -265,14 +264,14 @@ class _ListTokoState extends State<ListTokoState> {
                                           ),
                                         ),
                                       ],
-                                    )));
+                                    ),),);
                           },
                         ),
                       ),
-              )
+              ),
             ],
           ),
-        ));
-  }
-}
-}
+        ),);
+  },
+},
+
