@@ -21,33 +21,33 @@ class ListTokoModel {
 }
 
 class Data {
-  String id;
-  String nama;
-  String rating;
-  String alamat;
-  String foto;
+  String id_toko;
+  String nama_toko;
+  String rating_toko;
+  String alamat_toko;
+  String gambar_toko;
 
   Data(
-      {required this.id,
-      required this.nama,
-      required this.rating,
-      required this.alamat,
-      required this.foto});
+      {required this.id_toko,
+      required this.nama_toko,
+      required this.rating_toko,
+      required this.alamat_toko,
+      required this.gambar_toko});
 
   factory Data.fromJson(Map<String, dynamic> json) {
     return Data(
-      id: json['id'],
-      nama: json['nama'],
-      rating: json['rating'],
-      alamat: json['alamat'],
-      foto: json['foto'],
+      id_toko: json['id_toko'],
+      nama_toko: json['nama_toko'],
+      rating_toko: json['rating_toko'],
+      alamat_toko: json['alamat_toko'],
+      gambar_toko: json['gambar_toko'],
     );
   }
   Map<String, dynamic> toJson() => {
-        "id": id,
-        "nama": nama,
-        "rating": rating,
-        "alamat": alamat,
-        "foto": foto,
+        "id": id_toko,
+        "nama": nama_toko,
+        "rating": rating_toko,
+        "alamat": alamat_toko,
+        "foto": gambar_toko,
       };
 }
