@@ -131,7 +131,7 @@ class _DetailPageState extends State<DetailPage> {
                             ],
                           ),
                         ),
-                        Text("07:00 - 21:00 WITA")
+                        Text("07:00 - 22:00 WITA")
                       ],
                     ),
                   ),
