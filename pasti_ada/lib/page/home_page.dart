@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pasti_ada/common/styles.dart';
-import 'package:pasti_ada/widget/list_toko.dart';
+import 'package:pasti_ada/widget/widget_list_toko_barang.dart';
 import 'package:pasti_ada/widget/multi_platform.dart';
 
 class HomePage extends StatefulWidget {
