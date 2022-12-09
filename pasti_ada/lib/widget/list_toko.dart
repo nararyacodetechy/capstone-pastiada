@@ -46,7 +46,7 @@ class ListToko extends StatelessWidget {
           IconButton(
             onPressed: () {},
             icon: const Icon(
-              Icons.search,
+              Icons.message,
               color: iconColor,
             ),
           ),
@@ -71,7 +71,7 @@ class ListToko extends StatelessWidget {
                     'assets/banner.png',
                   ),
                   const SizedBox(
-                    height: 100,
+                    height: 120,
                   ),
                   Container(
                     child: _buildSubHeading(
@@ -91,93 +91,185 @@ class ListToko extends StatelessWidget {
                 ],
               ),
               Card(
+                margin: const EdgeInsets.only(top: 20, left: 10, right: 10),
+                child: Container(
+                  decoration: BoxDecoration(
+                      color: primaryColor,
+                      borderRadius: BorderRadius.circular(8),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.grey.withOpacity(0.3),
+                          spreadRadius: 2,
+                          blurRadius: 3,
+                          offset: const Offset(1, 1),
+                        ),
+                      ]),
+                  width: MediaQuery.of(context).size.width * 1,
+                  padding: const EdgeInsets.only(
+                      top: 5, bottom: 5, left: 8, right: 10),
+                  height: 35,
+                  child: Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        const Icon(
+                          Icons.search,
+                          color: iconColor,
+                        ),
+                        Container(
+                          margin: const EdgeInsets.only(left: 10),
+                          child: Text('cari barang atau toko disini ...',
+                              style: fontbodyText),
+                        ),
+                      ]),
+                ),
+              ),
+              Card(
                 margin: const EdgeInsets.only(top: 150, left: 10, right: 10),
                 child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: <Widget>[
                     Container(
-                      margin: const EdgeInsets.symmetric(vertical: 16.0),
+                      margin: const EdgeInsets.symmetric(
+                        vertical: 16.0,
+                      ),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: <Widget>[
                           Column(
-                            children: const <Widget>[
-                              Icon(Icons.person),
-                              SizedBox(
+                            children: <Widget>[
+                              Image.asset(
+                                'assets/barangbekas.png',
+                                height: 30,
+                                width: 30,
+                              ),
+                              const SizedBox(
                                 height: 8.0,
                               ),
-                              Text('Kuliner'),
+                              Text(
+                                'Olahraga',
+                                style: fontbodyTextSmall,
+                              ),
                             ],
                           ),
                           Column(
-                            children: const <Widget>[
-                              Icon(Icons.person),
-                              SizedBox(
+                            children: <Widget>[
+                              Image.asset(
+                                'assets/teknologi.png',
+                                height: 30,
+                                width: 30,
+                              ),
+                              const SizedBox(
                                 height: 8.0,
                               ),
-                              Text('Kuliner'),
+                              Text(
+                                'Teknologi',
+                                style: fontbodyTextSmall,
+                              ),
                             ],
                           ),
                           Column(
-                            children: const <Widget>[
-                              Icon(Icons.person),
-                              SizedBox(
+                            children: <Widget>[
+                              Image.asset(
+                                'assets/snack.png',
+                                height: 30,
+                                width: 30,
+                              ),
+                              const SizedBox(
                                 height: 8.0,
                               ),
-                              Text('Kuliner'),
+                              Text(
+                                'Snack',
+                                style: fontbodyTextSmall,
+                              ),
                             ],
                           ),
                           Column(
-                            children: const <Widget>[
-                              Icon(Icons.person),
-                              SizedBox(
+                            children: <Widget>[
+                              Image.asset(
+                                'assets/pakaian.png',
+                                height: 30,
+                                width: 30,
+                              ),
+                              const SizedBox(
                                 height: 8.0,
                               ),
-                              Text('Kuliner'),
+                              Text(
+                                'Pakaian',
+                                style: fontbodyTextSmall,
+                              ),
                             ],
                           )
                         ],
                       ),
                     ),
                     Container(
-                      margin: const EdgeInsets.symmetric(vertical: 16.0),
+                      margin: const EdgeInsets.symmetric(
+                        vertical: 16.0,
+                      ),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: <Widget>[
                           Column(
-                            children: const <Widget>[
-                              Icon(Icons.person),
-                              SizedBox(
+                            children: <Widget>[
+                              Image.asset(
+                                'assets/perabotan.png',
+                                height: 30,
+                                width: 30,
+                              ),
+                              const SizedBox(
                                 height: 8.0,
                               ),
-                              Text('Kuliner'),
+                              Text(
+                                'Perabotan',
+                                style: fontbodyTextSmall,
+                              ),
                             ],
                           ),
                           Column(
-                            children: const <Widget>[
-                              Icon(Icons.person),
-                              SizedBox(
+                            children: <Widget>[
+                              Image.asset(
+                                'assets/otomotif.png',
+                                height: 30,
+                                width: 30,
+                              ),
+                              const SizedBox(
                                 height: 8.0,
                               ),
-                              Text('Kuliner'),
+                              Text(
+                                'Otomotif',
+                                style: fontbodyTextSmall,
+                              ),
                             ],
                           ),
                           Column(
-                            children: const <Widget>[
-                              Icon(Icons.person),
-                              SizedBox(
+                            children: <Widget>[
+                              Image.asset(
+                                'assets/kuliner.png',
+                                height: 30,
+                                width: 30,
+                              ),
+                              const SizedBox(
                                 height: 8.0,
                               ),
-                              Text('Kuliner'),
+                              Text(
+                                'Kuliner',
+                                style: fontbodyTextSmall,
+                              ),
                             ],
                           ),
                           Column(
-                            children: const <Widget>[
-                              Icon(Icons.person),
-                              SizedBox(
+                            children: <Widget>[
+                              Image.asset(
+                                'assets/lainnya.png',
+                                height: 30,
+                                width: 30,
+                              ),
+                              const SizedBox(
                                 height: 8.0,
                               ),
-                              Text('Kuliner'),
+                              Text(
+                                'Lainnya',
+                                style: fontbodyTextSmall,
+                              ),
                             ],
                           )
                         ],
