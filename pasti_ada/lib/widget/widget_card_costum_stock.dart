@@ -13,7 +13,6 @@ class CardCostumStock extends StatefulWidget {
 }
 
 class _CardCostumStockState extends State<CardCostumStock> {
-
   @override
   void initState() {
     super.initState();

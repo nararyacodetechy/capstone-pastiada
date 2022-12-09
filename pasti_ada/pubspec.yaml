@@ -13,7 +13,7 @@ dependencies:
     sdk: flutter
   
   flutter_number_picker: ^1.0.4
-
+  flutter_rating_bar: ^4.0.1
   cupertino_icons: ^1.0.2
   google_fonts: ^3.0.1
 
@@ -22,7 +22,7 @@ dev_dependencies:
     sdk: flutter
 
   flutter_lints: ^2.0.0
-  flutter_native_splash: ^2.2.16
+  flutter_native_splash: ^1.3.2
   flutter_launcher_icons: ^0.11.0
 
 flutter_icons:
