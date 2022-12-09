@@ -17,28 +17,28 @@
                             "id_barang": "3irWee6pZ7",
                             "nama_barang": "Lemari",
                             "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/535/0753594_PE748782_S4.jpg",
-                            "harga_barang": 700.000,
+                            "harga_barang": 700000,
                             "merek_barang": "NORDLI"
                         },
                         {
                             "id_barang": "9xQe25BfvY",
                             "nama_barang": "Meja Makan",
                             "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/435/0743579_PE743093_S4.jpg",
-                            "harga_barang": 500.000,
+                            "harga_barang": 500000,
                             "merek_barang": "BILLY"
                         },
                         {
                             "id_barang": "r2Kw5R9bk6",
                             "nama_barang": "Meja Kerja",
                             "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/379/0937941_PE793894_S4.jpg",
-                            "harga_barang": 579.000,
+                            "harga_barang": 579000,
                             "merek_barang": "BEKANT"
                         },
                         {
                             "id_barang": "cieML397TE",
                             "nama_barang": "Bantal Duduk",
                             "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/844/0684483_PE721196_S4.jpg",
-                            "harga_barang": 495.000,
+                            "harga_barang": 495000,
                             "merek_barang": "GURLI"
                         }
                       ]
