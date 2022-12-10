@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 const Color primaryColor = Colors.white;
-const Color iconColor = Colors.amber;
+const Color iconColor = Colors.orange;
 final TextStyle fontTitleLarge = GoogleFonts.poppins(
-    fontSize: 23, fontWeight: FontWeight.w800, color: Colors.amber);
+    fontSize: 23, fontWeight: FontWeight.w800, color: Colors.orange);
 final TextStyle fontTitleMedium = GoogleFonts.poppins(
     fontSize: 19, fontWeight: FontWeight.w500, letterSpacing: 0.15);
 final TextStyle fontSubtitle = GoogleFonts.poppins(
