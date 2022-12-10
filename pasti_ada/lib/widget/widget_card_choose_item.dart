@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pasti_ada/common/styles.dart';
 
 class CardProduct extends StatelessWidget {
   const CardProduct({
@@ -21,7 +22,7 @@ class CardProduct extends StatelessWidget {
             tag: "",
             child: Container(
               decoration: const BoxDecoration(
-                color: Colors.orange,
+                color: iconColor,
                 borderRadius: BorderRadius.all(Radius.circular(10)),
               ),
               width: 50,
@@ -79,10 +80,9 @@ class _ChooseItemState extends State<ChooseItem> {
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
-        backgroundColor: Colors.orange,
+        backgroundColor: iconColor,
       ),
       child: _isSelected ? const Text("Terpilih") : const Text("Pilih"),
-      // child: const Text("Pilih"),
       onPressed: () {
         setState(() {
           _isSelected = !_isSelected;

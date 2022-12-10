@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pasti_ada/common/styles.dart';
 import 'package:pasti_ada/page/confirm_item_page.dart';
 import 'package:pasti_ada/widget/widget_card_choose_item.dart';
 
@@ -18,7 +19,7 @@ class ChooseItemPage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: const [
                     CircleAvatar(
-                      backgroundColor: Colors.orange,
+                      backgroundColor: iconColor,
                       child: Icon(
                         Icons.arrow_back,
                         color: Colors.white,
@@ -26,8 +27,8 @@ class ChooseItemPage extends StatelessWidget {
                     ),
                     Text("Pilih Barang"),
                     CircleAvatar(
-                      backgroundColor: Colors.orange,
-                      child: Icon(Icons.person, color: Colors.white),
+                      backgroundColor: iconColor,
+                      child: Icon(Icons.person, color: primaryColor),
                     ),
                   ],
                 ),
@@ -35,25 +36,24 @@ class ChooseItemPage extends StatelessWidget {
                   preferredSize: const Size.fromHeight(80),
                   child: Container(
                     height: 80,
-                    color: Colors.white,
+                    color: primaryColor,
                     padding: const EdgeInsets.all(10),
                     child: TextField(
                       textAlignVertical: TextAlignVertical.center,
-                      style:
-                          const TextStyle(color: Colors.orange, fontSize: 18),
+                      style: const TextStyle(color: iconColor, fontSize: 18),
                       decoration: InputDecoration(
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(10),
-                          borderSide: const BorderSide(color: Colors.red),
+                          borderSide: const BorderSide(color: iconColor),
                         ),
                         hintText: 'Cari Barang disini...',
-                        fillColor: Colors.white,
+                        fillColor: primaryColor,
                         hintStyle: const TextStyle(
                             fontSize: 18.0,
                             color: Color.fromARGB(255, 180, 180, 180)),
                         prefixIcon: const Icon(
                           Icons.search,
-                          color: Colors.orange,
+                          color: iconColor,
                         ),
                       ),
                       onChanged: (value) {
@@ -65,7 +65,7 @@ class ChooseItemPage extends StatelessWidget {
                 ),
                 pinned: true,
                 expandedHeight: 300,
-                backgroundColor: Colors.orange,
+                backgroundColor: iconColor,
                 flexibleSpace: FlexibleSpaceBar(
                   background: Image.network(
                     'https://media.istockphoto.com/id/1178080600/id/vektor/toko-perhiasan-kecil-membangun-vektor-kartun.jpg?s=170667a&w=0&k=20&c=UNec5Knklcm_aZ8_galvHEwVGOUsEREm0NxJjQw-kck=',
@@ -78,7 +78,7 @@ class ChooseItemPage extends StatelessWidget {
                 child: Container(
                   margin: const EdgeInsets.only(bottom: 100),
                   padding: const EdgeInsets.all(10),
-                  color: Colors.white,
+                  color: primaryColor,
                   child: Column(
                     children: const [
                       CardProduct(),
@@ -114,7 +114,7 @@ class ButtonConfirmSelectItems extends StatelessWidget {
       padding: const EdgeInsets.all(10),
       height: 100,
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: primaryColor,
         boxShadow: [
           BoxShadow(
             color: Colors.grey.withOpacity(0.5),
@@ -130,7 +130,7 @@ class ButtonConfirmSelectItems extends StatelessWidget {
         children: [
           Text(
             "Total Pilihan: 3",
-            style: Theme.of(context).textTheme.subtitle2,
+            style: kTextTheme.subtitle1,
           ),
           Container(
             margin: const EdgeInsets.symmetric(vertical: 8.0),
@@ -140,7 +140,7 @@ class ButtonConfirmSelectItems extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.all(10),
                   decoration: BoxDecoration(
-                    border: Border.all(color: Colors.orange),
+                    border: Border.all(color: iconColor),
                     borderRadius: const BorderRadius.all(Radius.circular(10)),
                   ),
                   child: const Text("Total Pembayaran: Rp.300.000"),
@@ -152,7 +152,7 @@ class ButtonConfirmSelectItems extends StatelessWidget {
                         builder: (context) => const ConfirmItemPage()),
                   ),
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.orange,
+                    backgroundColor: iconColor,
                   ),
                   child: const Text("Lihat Pilihan"),
                 ),
