@@ -47,6 +47,13 @@
                   "harga_barang": 299000,
                   "merek_barang": "BAGGEBO"
                 },
+                {
+                  "id_barang": "6j95KEAjjM",
+                  "nama_barang": "Piring",
+                  "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/144/0714493_PE730105_S4.jpg",
+                  "harga_barang": 199000,
+                  "merek_barang": "BACKIG"
+                }
               ]
             },
             {
