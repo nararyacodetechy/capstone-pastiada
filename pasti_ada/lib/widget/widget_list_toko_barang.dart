@@ -112,69 +112,81 @@ class ListToko extends StatelessWidget {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: <Widget>[
-                          Column(
-                            children: <Widget>[
-                              Image.asset(
-                                'assets/icon/barangbekas.png',
-                                height: 30,
-                                width: 30,
-                              ),
-                              const SizedBox(
-                                height: 8.0,
-                              ),
-                              Text(
-                                'Olahraga',
-                                style: fontbodyTextSmall,
-                              ),
-                            ],
+                          GestureDetector(
+                            onTap: () {},
+                            child: Column(
+                              children: <Widget>[
+                                Image.asset(
+                                  'assets/icon/barangbekas.png',
+                                  height: 30,
+                                  width: 30,
+                                ),
+                                const SizedBox(
+                                  height: 8.0,
+                                ),
+                                Text(
+                                  'Olahraga',
+                                  style: fontbodyTextSmall,
+                                ),
+                              ],
+                            ),
                           ),
-                          Column(
-                            children: <Widget>[
-                              Image.asset(
-                                'assets/icon/teknologi.png',
-                                height: 30,
-                                width: 30,
-                              ),
-                              const SizedBox(
-                                height: 8.0,
-                              ),
-                              Text(
-                                'Teknologi',
-                                style: fontbodyTextSmall,
-                              ),
-                            ],
+                          GestureDetector(
+                            onTap: () {},
+                            child: Column(
+                              children: <Widget>[
+                                Image.asset(
+                                  'assets/icon/teknologi.png',
+                                  height: 30,
+                                  width: 30,
+                                ),
+                                const SizedBox(
+                                  height: 8.0,
+                                ),
+                                Text(
+                                  'Teknologi',
+                                  style: fontbodyTextSmall,
+                                ),
+                              ],
+                            ),
                           ),
-                          Column(
-                            children: <Widget>[
-                              Image.asset(
-                                'assets/icon/snack.png',
-                                height: 30,
-                                width: 30,
-                              ),
-                              const SizedBox(
-                                height: 8.0,
-                              ),
-                              Text(
-                                'Snack',
-                                style: fontbodyTextSmall,
-                              ),
-                            ],
+                          GestureDetector(
+                            onTap: () {},
+                            child: Column(
+                              children: <Widget>[
+                                Image.asset(
+                                  'assets/icon/snack.png',
+                                  height: 30,
+                                  width: 30,
+                                ),
+                                const SizedBox(
+                                  height: 8.0,
+                                ),
+                                Text(
+                                  'Snack',
+                                  style: fontbodyTextSmall,
+                                ),
+                              ],
+                            ),
                           ),
-                          Column(
-                            children: <Widget>[
-                              Image.asset(
-                                'assets/icon/pakaian.png',
-                                height: 30,
-                                width: 30,
-                              ),
-                              const SizedBox(
-                                height: 8.0,
-                              ),
-                              Text(
-                                'Pakaian',
-                                style: fontbodyTextSmall,
-                              ),
-                            ],
+                          GestureDetector(
+                            onTap: () {},
+                            child: Column(
+                              children: <Widget>[
+                                Image.asset(
+                                  'assets/icon/pakaian.png',
+                                  height: 30,
+                                  width: 30,
+                                ),
+                                const SizedBox(
+                                  height: 8.0,
+                                ),
+                                Text(
+                                  'Pakaian',
+                                  style: fontbodyTextSmall,
+                                ),
+                              ],
+                            ),
                           )
                         ],
                       ),
@@ -186,69 +198,86 @@ class ListToko extends StatelessWidget {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: <Widget>[
-                          Column(
-                            children: <Widget>[
-                              Image.asset(
-                                'assets/icon/perabotan.png',
-                                height: 30,
-                                width: 30,
-                              ),
-                              const SizedBox(
-                                height: 8.0,
-                              ),
-                              Text(
-                                'Perabotan',
-                                style: fontbodyTextSmall,
-                              ),
-                            ],
+                          GestureDetector(
+                            onTap: () {
+                              // Navigator.push(context,
+                              //     MaterialPageRoute(builder: (context) {
+                              //   return PerabotanCategoryPage();
+                              // }));
+                            },
+                            child: Column(
+                              children: <Widget>[
+                                Image.asset(
+                                  'assets/icon/perabotan.png',
+                                  height: 30,
+                                  width: 30,
+                                ),
+                                const SizedBox(
+                                  height: 8.0,
+                                ),
+                                Text(
+                                  'Perabotan',
+                                  style: fontbodyTextSmall,
+                                ),
+                              ],
+                            ),
                           ),
-                          Column(
-                            children: <Widget>[
-                              Image.asset(
-                                'assets/icon/otomotif.png',
-                                height: 30,
-                                width: 30,
-                              ),
-                              const SizedBox(
-                                height: 8.0,
-                              ),
-                              Text(
-                                'Otomotif',
-                                style: fontbodyTextSmall,
-                              ),
-                            ],
+                          GestureDetector(
+                            onTap: () {},
+                            child: Column(
+                              children: <Widget>[
+                                Image.asset(
+                                  'assets/icon/otomotif.png',
+                                  height: 30,
+                                  width: 30,
+                                ),
+                                const SizedBox(
+                                  height: 8.0,
+                                ),
+                                Text(
+                                  'Otomotif',
+                                  style: fontbodyTextSmall,
+                                ),
+                              ],
+                            ),
                           ),
-                          Column(
-                            children: <Widget>[
-                              Image.asset(
-                                'assets/icon/kuliner.png',
-                                height: 30,
-                                width: 30,
-                              ),
-                              const SizedBox(
-                                height: 8.0,
-                              ),
-                              Text(
-                                'Kuliner',
-                                style: fontbodyTextSmall,
-                              ),
-                            ],
+                          GestureDetector(
+                            onTap: () {},
+                            child: Column(
+                              children: <Widget>[
+                                Image.asset(
+                                  'assets/icon/kuliner.png',
+                                  height: 30,
+                                  width: 30,
+                                ),
+                                const SizedBox(
+                                  height: 8.0,
+                                ),
+                                Text(
+                                  'Kuliner',
+                                  style: fontbodyTextSmall,
+                                ),
+                              ],
+                            ),
                           ),
-                          Column(
-                            children: <Widget>[
-                              Image.asset(
-                                'assets/icon/lainnya.png',
-                                height: 30,
-                                width: 30,
-                              ),
-                              const SizedBox(
-                                height: 8.0,
-                              ),
-                              Text(
-                                'Lainnya',
-                                style: fontbodyTextSmall,
-                              ),
-                            ],
+                          GestureDetector(
+                            onTap: () {},
+                            child: Column(
+                              children: <Widget>[
+                                Image.asset(
+                                  'assets/icon/lainnya.png',
+                                  height: 30,
+                                  width: 30,
+                                ),
+                                const SizedBox(
+                                  height: 8.0,
+                                ),
+                                Text(
+                                  'Lainnya',
+                                  style: fontbodyTextSmall,
+                                ),
+                              ],
+                            ),
                           )
                         ],
                       ),
