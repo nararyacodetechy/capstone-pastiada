@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:pasti_ada/common/styles.dart';
 import 'package:pasti_ada/page/home_page.dart';
-
-import 'common/styles.dart';
 
 void main() {
   runApp(const MyApp());
