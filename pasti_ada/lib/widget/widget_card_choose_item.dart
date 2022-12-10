@@ -46,7 +46,7 @@ class CardProduct extends StatelessWidget {
             ],
           ),
           trailing: Column(
-            children: [
+            children: const [
               // Container(
               //   padding: const EdgeInsets.all(5),
               //   decoration: BoxDecoration(
@@ -55,7 +55,7 @@ class CardProduct extends StatelessWidget {
               //   ),
               //   child: const Text("Tersedia: 28"),
               // ),
-              const ChooseItem(),
+              ChooseItem(),
             ],
           ),
         ),
