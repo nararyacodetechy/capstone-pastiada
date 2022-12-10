@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pasti_ada/common/styles.dart';
+
+import '../common/styles.dart';
 
 class CardProduct extends StatelessWidget {
   const CardProduct({

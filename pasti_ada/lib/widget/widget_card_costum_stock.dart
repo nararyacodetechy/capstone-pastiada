@@ -2,7 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_number_picker/flutter_number_picker.dart';
-import 'package:pasti_ada/common/styles.dart';
+
+import '../common/styles.dart';
 
 class CardCostumStock extends StatefulWidget {
   const CardCostumStock({

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:pasti_ada/common/styles.dart';
+
 import 'package:pasti_ada/widget/widget_card_costum_stock.dart';
+
+import '../common/styles.dart';
 
 class ConfirmItemPage extends StatelessWidget {
   const ConfirmItemPage({super.key});
