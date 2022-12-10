@@ -4,34 +4,44 @@
         "nama": "Gas Elpiji 3 kg",
         "harga": 25000,
         "merk": "-",
-        "gambar": "https://id-live-01.slatic.net/p/9981a6d21d4c9aa5c072a8da20b5604b.png"
+        "gambar": "https://id-live-01.slatic.net/p/9981a6d21d4c9aa5c072a8da20b5604b.png",
+        "rating": "4.9",
+        "deskripsi": "Gas untuk kita semua"
     },
     {
         "id": "kVSNWp6HUwCkcvz",
         "nama": "Beras 10 Kg",
         "harga": 90000,
         "merk": "Selancar",
-        "gambar": "https://cf.shopee.co.id/file/fe99fe0c6f22a0bd46c79b833ff6ff70"
+        "gambar": "https://cf.shopee.co.id/file/fe99fe0c6f22a0bd46c79b833ff6ff70",
+        "rating": "4.1",
+        "deskripsi": "Makanan pokok sehari-hari"
     },
     {
         "id": "6qLcAmCvhZ5DNr8",
         "nama": "Minyak Makan 1 liter",
         "harga": 18000,
         "merk": "Bimoli",
-        "gambar": "https://cf.shopee.co.id/file/9fdfce216255b7b779e5ce9661cf9bc3"
+        "gambar": "https://cf.shopee.co.id/file/9fdfce216255b7b779e5ce9661cf9bc3",
+        "rating": "4.0",
+        "deskripsi": "Minyak makan yang bisa diminum tapi bukan untuk diminum"
     },
     {
         "id": "AnJXzTKyYJR7n7u",
         "nama": "Deterjen 800 gram",
         "harga": 10000,
         "merk": "Rinso",
-        "gambar": "https://jumbo.co.id/wp-content/uploads/2020/07/8999999401238-1753934-png.png"
+        "gambar": "https://jumbo.co.id/wp-content/uploads/2020/07/8999999401238-1753934-png.png",
+        "rating": "3.8",
+        "deskripsi": "Cuci baju dengan kekuatan 10 tangan"
     },
     {
         "id": "a5dzeXJLqSg2eJX",
         "nama": "Mie Instan",
         "harga": 3500,
         "merk": "Indomie",
-        "gambar": "https://images.tokopedia.net/img/cache/500-square/product-1/2020/2/19/47871595/47871595_b6aa9df0-846b-4846-95d1-940248340634_1000_1000"
+        "gambar": "https://images.tokopedia.net/img/cache/500-square/product-1/2020/2/19/47871595/47871595_b6aa9df0-846b-4846-95d1-940248340634_1000_1000",
+        "rating": "4.9",
+        "deskripsi": "Indomie Original, sangat cocok untuk mengisi perut kosong"
     }
 ]

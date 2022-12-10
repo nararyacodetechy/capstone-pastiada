@@ -8,6 +8,7 @@ const Color iconColor = Colors.orange;
 const Color darkPrimary = Color(0xFF000814);
 const Color darkBlue = Color(0xFF003566);
 const Color lightYellow = Color(0xFFffc300);
+const Color success = Colors.green;
 
 const kColorScheme = ColorScheme(
   primary: lightYellow,
@@ -39,6 +40,13 @@ final TextStyle fontbodyTextSmall = GoogleFonts.poppins(
     fontSize: 10, fontWeight: FontWeight.w300, letterSpacing: 0.25);
 final TextStyle fontCardText = GoogleFonts.poppins(
     fontSize: 14, fontWeight: FontWeight.w300, letterSpacing: 0.25);
+final TextStyle fontCardTextSmall = GoogleFonts.poppins(
+    fontSize: 10, fontWeight: FontWeight.w300, letterSpacing: 0.25);
+final TextStyle fontTextSuccess = GoogleFonts.poppins(
+    fontSize: 12,
+    fontWeight: FontWeight.w300,
+    letterSpacing: 0.25,
+    color: success);
 
 // text theme
 final kTextTheme = TextTheme(

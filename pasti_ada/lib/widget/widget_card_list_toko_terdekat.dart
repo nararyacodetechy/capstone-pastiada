@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pasti_ada/common/styles.dart';
 import 'package:pasti_ada/data/toko_terdekat.dart';
+import 'package:pasti_ada/page/detail_toko_page.dart';
 
 class ListCardTokoTerdekat extends StatelessWidget {
   final TokoTerdekat tokoTerdekat;
@@ -12,7 +13,10 @@ class ListCardTokoTerdekat extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.symmetric(vertical: 3),
       child: InkWell(
-        onTap: () {},
+        onTap: () {
+          Navigator.pushNamed(context, DetailTokoPage.routeName,
+              arguments: tokoTerdekat);
+        },
         child: Stack(
           alignment: Alignment.bottomLeft,
           children: [

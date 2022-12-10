@@ -14,6 +14,8 @@ class BarangTerlaris {
     required this.harga,
     required this.merk,
     required this.gambar,
+    required this.rating,
+    required this.deskripsi,
   });
 
   String id;
@@ -21,6 +23,8 @@ class BarangTerlaris {
   int harga;
   String merk;
   String gambar;
+  String rating;
+  String deskripsi;
 
   factory BarangTerlaris.fromJson(Map<String, dynamic> json) => BarangTerlaris(
         id: json["id"],
@@ -28,6 +32,8 @@ class BarangTerlaris {
         harga: json["harga"],
         merk: json["merk"],
         gambar: json["gambar"],
+        rating: json["rating"],
+        deskripsi: json["deskripsi"],
       );
 
   Map<String, dynamic> toJson() => {
@@ -36,6 +42,8 @@ class BarangTerlaris {
         "harga": harga,
         "merk": merk,
         "gambar": gambar,
+        "rating": rating,
+        "deskripsi": deskripsi,
       };
 }
 

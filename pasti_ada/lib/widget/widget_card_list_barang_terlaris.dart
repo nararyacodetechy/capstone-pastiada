@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pasti_ada/common/styles.dart';
 import 'package:pasti_ada/data/barang_terlaris.dart';
+import 'package:pasti_ada/page/detail_barang_page.dart';
 
 class ListCardBarangTerlaris extends StatelessWidget {
   final BarangTerlaris barangTerlaris;
@@ -12,7 +13,10 @@ class ListCardBarangTerlaris extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.symmetric(vertical: 4),
       child: InkWell(
-        onTap: () {},
+        onTap: () {
+          Navigator.pushNamed(context, DetailBarangPage.routeName,
+              arguments: barangTerlaris);
+        },
         child: Stack(
           alignment: Alignment.bottomLeft,
           children: [

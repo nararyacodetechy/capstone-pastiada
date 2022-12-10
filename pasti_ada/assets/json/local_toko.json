@@ -1,166 +1,160 @@
 {
-
     "etalastore": [
         {
             "kategori": [
-              {
+                {
                     "perabotan": [
-                    {
-                        "id_toko": "vVNjMycWM9",
-                        "nama_toko": "Toko Artha",
-                        "gambar_toko": "https://hinyong.com/wp-content/uploads/2019/05/cara-memulai-usaha-toko-mebel-dan-furniture-modern-dan-minimalis.jpg",
-                        "alamat_toko": "Jalan I Gusti Ngurah Rai",
-                        "description_toko": "Selamat datang di Toko Artha! Kami menjual berbagai macam jenis perabotan mulai dari, lemari, Meja makan,Bantal duduk, meja kerja dan lain-lain.",
-                        "rating_toko": "4,5",
-                        "barang": [
                         {
-                            "id_barang": "3irWee6pZ7",
-                            "nama_barang": "Lemari",
-                            "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/535/0753594_PE748782_S4.jpg",
-                            "harga_barang": 700.000,
-                            "merek_barang": "NORDLI"
+                            "id_toko": "vVNjMycWM9",
+                            "nama_toko": "Toko Artha",
+                            "gambar_toko": "https://hinyong.com/wp-content/uploads/2019/05/cara-memulai-usaha-toko-mebel-dan-furniture-modern-dan-minimalis.jpg",
+                            "alamat_toko": "Jalan I Gusti Ngurah Rai",
+                            "description_toko": "Selamat datang di Toko Artha! Kami menjual berbagai macam jenis perabotan mulai dari, lemari, Meja makan,Bantal duduk, meja kerja dan lain-lain.",
+                            "rating_toko": "4,5",
+                            "barang": [
+                                {
+                                    "id_barang": "3irWee6pZ7",
+                                    "nama_barang": "Lemari",
+                                    "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/535/0753594_PE748782_S4.jpg",
+                                    "harga_barang": 700.000,
+                                    "merek_barang": "NORDLI"
+                                },
+                                {
+                                    "id_barang": "9xQe25BfvY",
+                                    "nama_barang": "Meja Makan",
+                                    "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/435/0743579_PE743093_S4.jpg",
+                                    "harga_barang": 500.000,
+                                    "merek_barang": "BILLY"
+                                },
+                                {
+                                    "id_barang": "r2Kw5R9bk6",
+                                    "nama_barang": "Meja Kerja",
+                                    "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/379/0937941_PE793894_S4.jpg",
+                                    "harga_barang": 579.000,
+                                    "merek_barang": "BEKANT"
+                                },
+                                {
+                                    "id_barang": "cieML397TE",
+                                    "nama_barang": "Bantal Duduk",
+                                    "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/844/0684483_PE721196_S4.jpg",
+                                    "harga_barang": 495.000,
+                                    "merek_barang": "GURLI"
+                                }
+                            ]
                         },
                         {
-                            "id_barang": "9xQe25BfvY",
-                            "nama_barang": "Meja Makan",
-                            "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/435/0743579_PE743093_S4.jpg",
-                            "harga_barang": 500.000,
-                            "merek_barang": "BILLY"
-                        },
-                        {
-                            "id_barang": "r2Kw5R9bk6",
-                            "nama_barang": "Meja Kerja",
-                            "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/379/0937941_PE793894_S4.jpg",
-                            "harga_barang": 579.000,
-                            "merek_barang": "BEKANT"
-                        },
-                        {
-                            "id_barang": "cieML397TE",
-                            "nama_barang": "Bantal Duduk",
-                            "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/844/0684483_PE721196_S4.jpg",
-                            "harga_barang": 495.000,
-                            "merek_barang": "GURLI"
+                            "id_toko": "6aWjn7u8M7",
+                            "nama_toko": "Wijaya Makmur",
+                            "gambar_toko": "https://jejakpiknik.com/wp-content/uploads/2021/08/toko-furniture-di-cengkareng-jakarta-barat.jpg",
+                            "alamat_toko": "Jalan Tangkuban Perahu 201",
+                            "description_toko": "Selamat datang di Wijaya Makmur! Kami menjual berbagai macam jenis perabotan mulai dari, sofa, lampu tidur, lemari, Meja makan, rak buku, Bantal duduk, rak sepatu dan lain-lain",
+                            "rating_toko": "4,2",
+                            "barang": [
+                                {
+                                    "id_barang": "fq9WTipiQS",
+                                    "nama_barang": "Sofa",
+                                    "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/799/0479959_PE619105_S4.jpg",
+                                    "harga_barang": 900.000,
+                                    "merek_barang": "NISSE"
+                                },
+                                {
+                                    "id_barang": "gi4bVr9De9",
+                                    "nama_barang": "Lampu Tidur",
+                                    "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/122/0812240_PE771976_S4.jpg",
+                                    "harga_barang": 200.000,
+                                    "merek_barang": "FLUGBO"
+                                },
+                                {
+                                    "id_barang": "2Lc8VNePfq",
+                                    "nama_barang": "Rak Buku",
+                                    "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/651/0565131_PE664934_S4.jpg",
+                                    "harga_barang": 450.000,
+                                    "merek_barang": "MUSKEN"
+                                },
+                                {
+                                    "id_barang": "72fcJZEnih",
+                                    "nama_barang": "Rak Sepatu",
+                                    "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/107/0710733_PE727751_S4.jpg",
+                                    "harga_barang": 450.000,
+                                    "merek_barang": "HEMNES"
+                                },
+                                {
+                                    "id_barang": "4kc65bJ7zY",
+                                    "nama_barang": "Meja Makan",
+                                    "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/973/0997396_PE822660_S4.jpg",
+                                    "harga_barang": 500.000,
+                                    "merek_barang": "BILLY"
+                                }
+                            ]
                         }
-                      ]
-                    },
-                    {
-                        "id_toko": "6aWjn7u8M7",
-                        "nama_toko": "Wijaya Makmur",
-                        "gambar_toko": "https://jejakpiknik.com/wp-content/uploads/2021/08/toko-furniture-di-cengkareng-jakarta-barat.jpg",
-                        "alamat_toko": "Jalan Tangkuban Perahu 201",
-                        "description_toko": "Selamat datang di Wijaya Makmur! Kami menjual berbagai macam jenis perabotan mulai dari, sofa, lampu tidur, lemari, Meja makan, rak buku, Bantal duduk, rak sepatu dan lain-lain",
-                        "rating_toko": "4,2",
-                        "barang": [
+                    ]
+                },
+                {
+                    "bahan_bangunan": [
                         {
-                            "id_barang": "fq9WTipiQS",
-                            "nama_barang": "Sofa",
-                            "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/799/0479959_PE619105_S4.jpg",
-                            "harga_barang": 900.000,
-                            "merek_barang": "NISSE"
+                            "id_toko": "t3kUHbhxc8",
+                            "nama_toko": "Makmur Abadi Bangunan",
+                            "gambar_toko": "https://tempat.info/wp-content/uploads/2021/06/toko-bangunan-bali-10.jpg",
+                            "alamat_toko": "Jalan Teuku Umar Barat No. 888, Pemecutan Klod, Kec. Denpasar Bar., Kota Denpasar, Bali 80119",
+                            "description_toko": "Toko yang menjual bahan bangunan",
+                            "rating_toko": "4,5",
+                            "barang": [
+                                {
+                                    "id_barang": "SRrXqGCgWV",
+                                    "nama_barang": "Batu Bata",
+                                    "gambar_barang": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/8/24/573c8099-2db3-4fa6-9a9b-f0da5127a825.jpg",
+                                    "harga_barang": "Rp. 2.500",
+                                    "merek_barang": "Samba"
+                                },
+                                {
+                                    "id_barang": "i5NJAzyA9F",
+                                    "nama_barang": "Semen",
+                                    "gambar_barang": "https://static.bmdstatic.com/pk/product/large/5d3ad31035cb4.jpg",
+                                    "harga_barang": "Rp. 60.000",
+                                    "merek_barang": "Tiga Roda"
+                                },
+                                {
+                                    "id_barang": "82CNmQRBtw",
+                                    "nama_barang": "Batako",
+                                    "gambar_barang": "https://pavingblockindonesia.com/wp-content/uploads/2016/11/jual-batako-bekasi.jpg",
+                                    "harga_barang": "Rp. 3.300",
+                                    "merek_barang": "batako"
+                                }
+                            ]
                         },
                         {
-                            "id_barang": "gi4bVr9De9",
-                            "nama_barang": "Lampu Tidur",
-                            "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/122/0812240_PE771976_S4.jpg",
-                            "harga_barang": 200.000,
-                            "merek_barang": "FLUGBO"
-                        },
-                        {
-                            "id_barang": "2Lc8VNePfq",
-                            "nama_barang": "Rak Buku",
-                            "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/651/0565131_PE664934_S4.jpg",
-                            "harga_barang": 450.000,
-                            "merek_barang": "MUSKEN"
-                        },
-                        {
-                            "id_barang": "72fcJZEnih",
-                            "nama_barang": "Rak Sepatu",
-                            "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/107/0710733_PE727751_S4.jpg",
-                            "harga_barang": 450.000,
-                            "merek_barang": "HEMNES"
-                        },
-                        {
-                          "id_barang": "4kc65bJ7zY",
-                          "nama_barang": "Meja Makan",
-                          "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/973/0997396_PE822660_S4.jpg",
-                          "harga_barang": 500.000,
-                          "merek_barang": "BILLY"
+                            "id_toko": "2NbgCM5LRS",
+                            "nama_toko": "Karya Utama",
+                            "gambar_toko": "https://tempat.info/wp-content/uploads/2021/06/toko-bangunan-bali-9.jpg",
+                            "alamat_toko": "JL. Raya Canggu No.27, Kerobokan, Kec. Kuta Utara, Kabupaten Badung, Bali 80361",
+                            "description_toko": "Toko yang menjual bahan bangunan",
+                            "rating_toko": "4.3",
+                            "barang": [
+                                {
+                                    "id_barang": "ZqwgwAuR4h",
+                                    "nama_barang": "Kayu",
+                                    "gambar_barang": "https://images.tokopedia.net/img/cache/500-square/product-1/2019/1/4/5467638/5467638_ac4ee3d9-faa2-45e8-a173-438b87c6b984_1040_780.jpeg",
+                                    "harga_barang": "Rp. 6.500",
+                                    "merek_barang": ""
+                                },
+                                {
+                                    "id_barang": "wUrDP6eKXC",
+                                    "nama_barang": "Bambu",
+                                    "gambar_barang": "https://images.tokopedia.net/img/cache/500-square/product-1/2017/2/22/1900466/1900466_87c23301-7353-44ed-b76f-c57801d1592f.jpg",
+                                    "harga_barang": "Rp. 18.000",
+                                    "merek_barang": ""
+                                },
+                                {
+                                    "id_barang": "yYJyqWSYbk",
+                                    "nama_barang": "Genting",
+                                    "gambar_barang": "https://berita.99.co/wp-content/uploads/2019/04/harga-genteng-header.jpg",
+                                    "harga_barang": "Rp. 12.000",
+                                    "merek_barang": "genting"
+                                }
+                            ]
                         }
-                      ]
-                    }
-                  ]
+                    ]
                 },
-                Alif :
-
-{
-          "bahan_bangunan": [
-            {
-              "id_toko": "t3kUHbhxc8",
-              "nama_toko": "Makmur Abadi Bangunan",
-              "gambar_toko": "https://tempat.info/wp-content/uploads/2021/06/toko-bangunan-bali-10.jpg",
-              "alamat_toko": "Jalan Teuku Umar Barat No. 888, Pemecutan Klod, Kec. Denpasar Bar., Kota Denpasar, Bali 80119",
-              "description_toko": "Toko yang menjual bahan bangunan",
-              "rating_toko": "4,5",
-              "barang": [
-                {
-                  "id_barang": "SRrXqGCgWV",
-                  "nama_barang": "Batu Bata",
-                  "gambar_barang": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/8/24/573c8099-2db3-4fa6-9a9b-f0da5127a825.jpg",
-                  "harga_barang": "Rp. 2.500",
-                  "merek_barang": "Samba"
-                },
-                {
-                  "id_barang": "i5NJAzyA9F",
-                  "nama_barang": "Semen",
-                  "gambar_barang": "https://static.bmdstatic.com/pk/product/large/5d3ad31035cb4.jpg",
-                  "harga_barang": "Rp. 60.000",
-                  "merek_barang": "Tiga Roda"
-                }
-                {
-                  "id_barang": "82CNmQRBtw”,
-                  "nama_barang": "Batako",
-                  "gambar_barang": "https://pavingblockindonesia.com/wp-content/uploads/2016/11/jual-batako-bekasi.jpg",
-                  "harga_barang": "Rp. 3.300",
-                  "merek_barang": "batako"
-                }
-
-              ]
-            },
-            {
-              "id_toko": "2NbgCM5LRS",
-              "nama_toko": "Karya Utama",
-              "gambar_toko": "https://tempat.info/wp-content/uploads/2021/06/toko-bangunan-bali-9.jpg",
-              "alamat_toko": "JL. Raya Canggu No.27, Kerobokan, Kec. Kuta Utara, Kabupaten Badung, Bali 80361",
-              "description_toko": "Toko yang menjual bahan bangunan",
-              "rating_toko": "4.3",
-              "barang": [
-                {
-                  "id_barang": "ZqwgwAuR4h",
-                  "nama_barang": "Kayu",
-                  "gambar_barang": "https://images.tokopedia.net/img/cache/500-square/product-1/2019/1/4/5467638/5467638_ac4ee3d9-faa2-45e8-a173-438b87c6b984_1040_780.jpeg",
-                  "harga_barang": "Rp. 6.500",
-                  "merek_barang": ""
-                },
-                {
-                  "id_barang": "wUrDP6eKXC",
-                  "nama_barang": "Bambu",
-                  "gambar_barang": "https://images.tokopedia.net/img/cache/500-square/product-1/2017/2/22/1900466/1900466_87c23301-7353-44ed-b76f-c57801d1592f.jpg",
-                  "harga_barang": "Rp. 18.000",
-                  "merek_barang": ""
-                }
-                {
-                  "id_barang": "yYJyqWSYbk",
-                  "nama_barang": "Genting",
-                  "gambar_barang": "https://berita.99.co/wp-content/uploads/2019/04/harga-genteng-header.jpg",
-                  "harga_barang": "Rp. 12.000",
-                  "merek_barang": "genting"
-                }
-
-              ]
-            }
-          ]
-        },
-
                 {
                     "bahan_makanan": [
                         {
@@ -228,7 +222,6 @@
                     ]
                 },
                 {
-  
                     "fashion": [
                         {
                             "id_toko": "HAh5QbSMCb",
@@ -329,11 +322,11 @@
                             "rating_toko": "4.4",
                             "barang": [
                                 {
-                                "id_barang": "RZCthGt3PG",
-                                "nama_barang": "Jam Tangan Pria",
-                                "gambar_barang": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//94/MTA-31781146/no_brand_jam_tangan_pria_-_jg2_jam_tangan_pria_kuarsa_-_jam_tangan_fashion_pria_casual_trendy_-_jam_tangan_korea_style_full01_qeo6fljs.jpg",
-                                "harga_barang": 120000,
-                                "merek_barang": "Geneva"
+                                    "id_barang": "RZCthGt3PG",
+                                    "nama_barang": "Jam Tangan Pria",
+                                    "gambar_barang": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//94/MTA-31781146/no_brand_jam_tangan_pria_-_jg2_jam_tangan_pria_kuarsa_-_jam_tangan_fashion_pria_casual_trendy_-_jam_tangan_korea_style_full01_qeo6fljs.jpg",
+                                    "harga_barang": 120000,
+                                    "merek_barang": "Geneva"
                                 },
                                 {
                                     "id_barang": "MGvFtjqDhx",
@@ -456,7 +449,6 @@
                             ]
                         }
                     ]
-
                 }
             ]
         }
