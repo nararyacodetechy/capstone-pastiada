@@ -1,37 +1,37 @@
 [
-    {
-        "id": "2fZk3d7FgvwT8eM",
-        "nama": "Gas Elpiji 3 kg",
-        "harga": 25000,
-        "merk": "-",
-        "gambar": "https://id-live-01.slatic.net/p/9981a6d21d4c9aa5c072a8da20b5604b.png"
-    },
-    {
-        "id": "kVSNWp6HUwCkcvz",
-        "nama": "Beras 10 Kg",
-        "harga": 90000,
-        "merk": "Selancar",
-        "gambar": "https://cf.shopee.co.id/file/fe99fe0c6f22a0bd46c79b833ff6ff70"
-    },
-    {
-        "id": "6qLcAmCvhZ5DNr8",
-        "nama": "Minyak Makan 1 liter",
-        "harga": 18000,
-        "merk": "Bimoli",
-        "gambar": "https://cf.shopee.co.id/file/9fdfce216255b7b779e5ce9661cf9bc3"
-    },
-    {
-        "id": "AnJXzTKyYJR7n7u",
-        "nama": "Deterjen 800 gram",
-        "harga": 10000,
-        "merk": "Rinso",
-        "gambar": "https://jumbo.co.id/wp-content/uploads/2020/07/8999999401238-1753934-png.png"
-    },
-    {
-        "id": "a5dzeXJLqSg2eJX",
-        "nama": "Mie Instan",
-        "harga": 3500,
-        "merk": "Indomie",
-        "gambar": "https://images.tokopedia.net/img/cache/500-square/product-1/2020/2/19/47871595/47871595_b6aa9df0-846b-4846-95d1-940248340634_1000_1000"
-    }
+  {
+    "id": "2fZk3d7FgvwT8eM",
+    "nama": "Gas Elpiji 3 kg",
+    "harga": 25000,
+    "merk": "-",
+    "gambar": "https://id-live-01.slatic.net/p/9981a6d21d4c9aa5c072a8da20b5604b.png"
+  },
+  {
+    "id": "kVSNWp6HUwCkcvz",
+    "nama": "Beras 10 Kg",
+    "harga": 90000,
+    "merk": "Selancar",
+    "gambar": "https://cf.shopee.co.id/file/fe99fe0c6f22a0bd46c79b833ff6ff70"
+  },
+  {
+    "id": "6qLcAmCvhZ5DNr8",
+    "nama": "Minyak Makan 1 liter",
+    "harga": 18000,
+    "merk": "Bimoli",
+    "gambar": "https://cf.shopee.co.id/file/9fdfce216255b7b779e5ce9661cf9bc3"
+  },
+  {
+    "id": "AnJXzTKyYJR7n7u",
+    "nama": "Deterjen 800 gram",
+    "harga": 10000,
+    "merk": "Rinso",
+    "gambar": "https://jumbo.co.id/wp-content/uploads/2020/07/8999999401238-1753934-png.png"
+  },
+  {
+    "id": "a5dzeXJLqSg2eJX",
+    "nama": "Mie Instan",
+    "harga": 3500,
+    "merk": "Indomie",
+    "gambar": "https://images.tokopedia.net/img/cache/500-square/product-1/2020/2/19/47871595/47871595_b6aa9df0-846b-4846-95d1-940248340634_1000_1000"
+  }
 ]
