@@ -112,7 +112,7 @@ class ButtonConfirmSelectItems extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.all(10),
-      height: 100,
+      height: 80,
       decoration: BoxDecoration(
         color: primaryColor,
         boxShadow: [
@@ -124,40 +124,33 @@ class ButtonConfirmSelectItems extends StatelessWidget {
           ),
         ],
       ),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.start,
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Text(
-            "Total Pilihan: 3",
-            style: kTextTheme.subtitle1,
+          Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                "Total Pilihan: 3",
+                style: kTextTheme.subtitle1,
+              ),
+              Text(
+                "Total Pembayaran: Rp.300.000",
+                style: kTextTheme.bodyText1,
+              ),
+            ],
           ),
-          Container(
-            margin: const EdgeInsets.symmetric(vertical: 8.0),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Container(
-                  padding: const EdgeInsets.all(10),
-                  decoration: BoxDecoration(
-                    border: Border.all(color: iconColor),
-                    borderRadius: const BorderRadius.all(Radius.circular(10)),
-                  ),
-                  child: const Text("Total Pembayaran: Rp.300.000"),
-                ),
-                ElevatedButton(
-                  onPressed: () => Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => const ConfirmItemPage()),
-                  ),
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: iconColor,
-                  ),
-                  child: const Text("Lihat Pilihan"),
-                ),
-              ],
+          ElevatedButton(
+            onPressed: () => Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const ConfirmItemPage()),
             ),
+            style: ElevatedButton.styleFrom(
+              backgroundColor: iconColor,
+            ),
+            child: const Text("Lihat Pilihan"),
           )
         ],
       ),
