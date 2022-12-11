@@ -61,6 +61,37 @@
           "merek_barang": "genting"
         }
       ]
+    },
+    {
+      "id_toko": "865iTAttFS",
+      "nama_toko": "CV Andhika",
+      "gambar_toko": "https://i2.wp.com/caritempat.online/wp-content/uploads/2020/09/toko-bahan-bangunan-kawan-kita.jpg?resize=816%2C596",
+      "alamat_toko": "JL. Nuansa Udayana 3 No. 5",
+      "description_toko": "Toko yang menjual bahan bangunan",
+      "rating_toko": "4.7",
+      "barang": [
+        {
+          "id_barang": "CwYQ6EzXfy",
+          "nama_barang": "Cat Tembok",
+          "gambar_barang": "https://cf.shopee.co.id/file/889998529eb60c482d2466c970022571 ",
+          "harga_barang": 165000,
+          "merek_barang": "NIPPON PAINT"
+        },
+        {
+          "id_barang": "fGL7udry6p",
+          "nama_barang": "Paku Tembok",
+          "gambar_barang": "https://images.tokopedia.net/img/cache/500-square/product-1/2017/8/8/0/0_a7dc1bb2-1117-4840-99e8-222479d45f5d_780_1040.jpg",
+          "harga_barang": 5000,
+          "merek_barang": "PAKU"
+        },
+        {
+          "id_barang": "QWSiezH3V3",
+          "nama_barang": "Lem Tembok",
+          "gambar_barang": "https://images.tokopedia.net/img/cache/700/product-1/2018/4/8/293916/293916_62c0d6ca-2201-493c-92cf-3a7d6d8f00d5_700_700.jpg",
+          "harga_barang": 27000,
+          "merek_barang": "JOYKO"
+        }
+      ]
     }
   ]
 }
