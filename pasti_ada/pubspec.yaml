@@ -27,15 +27,15 @@ dev_dependencies:
   flutter_launcher_icons: ^0.11.0
 
 flutter_icons:
-  image_path: assets/app-logo-big.png
+  image_path: assets/icon/app-logo-big.png
   android: true
   ios: true
 
 flutter_native_splash:
   color: "FFFFFF"
-  image: assets/splash_light.png
+  image: assets/icon/splash_light.png
   color_dark: "#000000"
-  image_dark: assets/splash_dark.png
+  image_dark: assets/icon/splash_dark.png
   android: true
   ios: true
 
