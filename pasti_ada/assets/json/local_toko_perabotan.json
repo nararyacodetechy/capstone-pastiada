@@ -1,0 +1,108 @@
+{
+  "perabotan": [
+    {
+      "id_toko": "vVNjMycWM9",
+      "nama_toko": "Toko Artha",
+      "gambar_toko": "https://hinyong.com/wp-content/uploads/2019/05/cara-memulai-usaha-toko-mebel-dan-furniture-modern-dan-minimalis.jpg",
+      "alamat_toko": "Jalan I Gusti Ngurah Rai",
+      "description_toko": "Selamat datang di Toko Artha! Kami menjual berbagai macam jenis perabotan mulai dari, lemari, Meja makan,Bantal duduk, meja kerja dan lain-lain.",
+      "rating_toko": "4.5",
+      "barang": [
+        {
+          "id_barang": "3irWee6pZ7",
+          "nama_barang": "Lemari",
+          "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/535/0753594_PE748782_S4.jpg",
+          "harga_barang": 700000,
+          "merek_barang": "NORDLI"
+        },
+        {
+          "id_barang": "9xQe25BfvY",
+          "nama_barang": "Meja Makan",
+          "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/435/0743579_PE743093_S4.jpg",
+          "harga_barang": 500000,
+          "merek_barang": "BILLY"
+        },
+        {
+          "id_barang": "r2Kw5R9bk6",
+          "nama_barang": "Meja Kerja",
+          "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/379/0937941_PE793894_S4.jpg",
+          "harga_barang": 579000,
+          "merek_barang": "BEKANT"
+        },
+        {
+          "id_barang": "cieML397TE",
+          "nama_barang": "Bantal Duduk",
+          "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/844/0684483_PE721196_S4.jpg",
+          "harga_barang": 495000,
+          "merek_barang": "GURLI"
+        },
+        {
+          "id_barang": "2U3iXACQ5f",
+          "nama_barang": "Meja Tv",
+          "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/239/1023961_PE833372_S4.jpg",
+          "harga_barang": 299000,
+          "merek_barang": "BAGGEBO"
+        },
+        {
+          "id_barang": "6j95KEAjjM",
+          "nama_barang": "Piring",
+          "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/144/0714493_PE730105_S4.jpg",
+          "harga_barang": 199000,
+          "merek_barang": "BACKIG"
+        }
+      ]
+    },
+    {
+      "id_toko": "6aWjn7u8M7",
+      "nama_toko": "Wijaya Makmur",
+      "gambar_toko": "https://1.bp.blogspot.com/-9jmDSMN7e-0/XRGlWWRHt_I/AAAAAAAABLo/ylFTP-MW9ik8F9tYnvOoKslL-QmNuiqWQCLcBGAs/s1600/toko-peralatan-rumah-tangga-tangsel.jpg",
+      "alamat_toko": "Jalan Tangkuban Perahu 201",
+      "description_toko": "Selamat datang di Wijaya Makmur! Kami menjual berbagai macam jenis perabotan mulai dari, sofa, lampu tidur, lemari, Meja makan, rak buku, Bantal duduk, rak sepatu dan lain-lain",
+      "rating_toko": "4.2",
+      "barang": [
+        {
+          "id_barang": "fq9WTipiQS",
+          "nama_barang": "Sofa",
+          "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/799/0479959_PE619105_S4.jpg",
+          "harga_barang": 900000,
+          "merek_barang": "NISSE"
+        },
+        {
+          "id_barang": "gi4bVr9De9",
+          "nama_barang": "Lampu Tidur",
+          "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/122/0812240_PE771976_S4.jpg",
+          "harga_barang": 200000,
+          "merek_barang": "FLUGBO"
+        },
+        {
+          "id_barang": "2Lc8VNePfq",
+          "nama_barang": "Rak Buku",
+          "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/651/0565131_PE664934_S4.jpg",
+          "harga_barang": 450000,
+          "merek_barang": "MUSKEN"
+        },
+        {
+          "id_barang": "72fcJZEnih",
+          "nama_barang": "Rak Sepatu",
+          "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/107/0710733_PE727751_S4.jpg",
+          "harga_barang": 450000,
+          "merek_barang": "HEMNES"
+        },
+        {
+          "id_barang": "4kc65bJ7zY",
+          "nama_barang": "Meja Makan",
+          "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/973/0997396_PE822660_S4.jpg",
+          "harga_barang": 500000,
+          "merek_barang": "BILLY"
+        },
+        {
+          "id_barang": "Y6cxKHaD2v",
+          "nama_barang": "Kabinet dinding",
+          "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/307/0630716_PE694852_S4.jpg",
+          "harga_barang": 900000,
+          "merek_barang": "KNOXHULT"
+        }
+      ]
+    }
+  ]
+}

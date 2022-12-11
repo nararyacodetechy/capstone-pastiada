@@ -19,13 +19,13 @@ class ChooseItemPage extends StatelessWidget {
                 title: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: const [
-                    CircleAvatar(
-                      backgroundColor: iconColor,
-                      child: Icon(
-                        Icons.arrow_back,
-                        color: Colors.white,
-                      ),
-                    ),
+                    // CircleAvatar(
+                    //   backgroundColor: iconColor,
+                    //   child: Icon(
+                    //     Icons.arrow_back,
+                    //     color: Colors.white,
+                    //   ),
+                    // ),
                     Text("Pilih Barang"),
                     CircleAvatar(
                       backgroundColor: iconColor,
@@ -83,18 +83,10 @@ class ChooseItemPage extends StatelessWidget {
                   child: Column(
                     children: const [
                       CardProduct(),
-                      CardProduct(),
-                      CardProduct(),
-                      CardProduct(),
-                      CardProduct(),
-                      CardProduct(),
-                      CardProduct(),
-                      CardProduct(),
-                      CardProduct(),
                     ],
                   ),
                 ),
-              )
+              ),
             ],
           ),
           const ButtonConfirmSelectItems(),

@@ -1,7 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:pasti_ada/category/detailsPage/details_toko_page_bahan_bangunan.dart';
+import 'package:pasti_ada/category/detailsPage/details_toko_page_bahan_makanan.dart';
+import 'package:pasti_ada/category/detailsPage/details_toko_page_fashion.dart';
+import 'package:pasti_ada/category/detailsPage/details_toko_page_perabotan.dart';
 
 import 'package:pasti_ada/common/utils.dart';
 import 'package:pasti_ada/data/barang_terlaris.dart';
+import 'package:pasti_ada/data/models_local_toko_bahan_bangunan.dart';
+import 'package:pasti_ada/data/models_local_toko_bahan_makanan.dart';
+import 'package:pasti_ada/data/models_local_toko_fashion.dart';
+import 'package:pasti_ada/data/models_local_toko_perabotan.dart';
 import 'package:pasti_ada/data/toko_terdekat.dart';
 import 'package:pasti_ada/page/barang_terlaris_page.dart';
 import 'package:pasti_ada/page/detail_toko_page.dart';
@@ -12,6 +20,7 @@ import 'package:pasti_ada/page/toko_terdekat_page.dart';
 import 'common/styles.dart';
 import 'page/detail_barang_page.dart';
 import 'page/favorite_page.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -58,6 +67,30 @@ class MyApp extends StatelessWidget {
               ),
               settings: settings,
             );
+          case DetailsTokoFashionPage.routeName:
+            final tokoFashion = settings.arguments as Fashion;
+            return MaterialPageRoute(
+                builder: (_) => DetailsTokoFashionPage(
+                      tokoFashion: tokoFashion,
+                    ));
+          case DetailsTokoPerabotanPage.routeName:
+            final perabotan = settings.arguments as Perabotan;
+            return MaterialPageRoute(
+                builder: (_) => DetailsTokoPerabotanPage(
+                      tokoPerabotan: perabotan,
+                    ));
+          case DetailsTokoBahanMakananPage.routeName:
+            final bahanMakanan = settings.arguments as BahanMakanan;
+            return MaterialPageRoute(
+                builder: (_) => DetailsTokoBahanMakananPage(
+                      bahanMakanan: bahanMakanan,
+                    ));
+          case DetailsTokoBahanBangunanPage.routeName:
+            final bahanBangunan = settings.arguments as BahanBangunan;
+            return MaterialPageRoute(
+                builder: (_) => DetailsTokoBahanBangunanPage(
+                      bahanBangunan: bahanBangunan,
+                    ));
           default:
             return MaterialPageRoute(builder: (_) {
               return const Scaffold(

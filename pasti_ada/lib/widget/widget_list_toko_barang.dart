@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:pasti_ada/category/bahan_bangunan_category.dart';
+import 'package:pasti_ada/category/bahan_makanan_category.dart';
+import 'package:pasti_ada/category/fashion_category.dart';
+import 'package:pasti_ada/category/perabotan_category_page.dart';
 import 'package:pasti_ada/common/styles.dart';
 import 'package:pasti_ada/data/barang_terlaris.dart';
 import 'package:pasti_ada/data/toko_terdekat.dart';
@@ -123,7 +127,16 @@ class ListToko extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: <Widget>[
                           GestureDetector(
-                            onTap: () {},
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) {
+                                    return const BahanBangunanCategoryPage();
+                                  },
+                                ),
+                              );
+                            },
                             child: Column(
                               children: <Widget>[
                                 Image.asset(
@@ -135,7 +148,7 @@ class ListToko extends StatelessWidget {
                                   height: 8.0,
                                 ),
                                 Text(
-                                  'Olahraga',
+                                  'Bahan bangunan',
                                   style: fontbodyTextSmall,
                                 ),
                               ],
@@ -161,7 +174,16 @@ class ListToko extends StatelessWidget {
                             ),
                           ),
                           GestureDetector(
-                            onTap: () {},
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) {
+                                    return const BahanMakananCategoryPage();
+                                  },
+                                ),
+                              );
+                            },
                             child: Column(
                               children: <Widget>[
                                 Image.asset(
@@ -173,14 +195,23 @@ class ListToko extends StatelessWidget {
                                   height: 8.0,
                                 ),
                                 Text(
-                                  'Snack',
+                                  'Bahan Makanan',
                                   style: fontbodyTextSmall,
                                 ),
                               ],
                             ),
                           ),
                           GestureDetector(
-                            onTap: () {},
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) {
+                                    return const FashionCategoryPage();
+                                  },
+                                ),
+                              );
+                            },
                             child: Column(
                               children: <Widget>[
                                 Image.asset(
@@ -192,7 +223,7 @@ class ListToko extends StatelessWidget {
                                   height: 8.0,
                                 ),
                                 Text(
-                                  'Pakaian',
+                                  'Fashion',
                                   style: fontbodyTextSmall,
                                 ),
                               ],
@@ -210,10 +241,14 @@ class ListToko extends StatelessWidget {
                         children: <Widget>[
                           GestureDetector(
                             onTap: () {
-                              // Navigator.push(context,
-                              //     MaterialPageRoute(builder: (context) {
-                              //   return PerabotanCategoryPage();
-                              // }));
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) {
+                                    return const PerabotanCategoryPage();
+                                  },
+                                ),
+                              );
                             },
                             child: Column(
                               children: <Widget>[
