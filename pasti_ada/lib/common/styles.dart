@@ -10,6 +10,7 @@ const Color darkPrimary = Color(0xFF000814);
 const Color darkBlue = Color(0xFF003566);
 const Color lightYellow = Color(0xFFffc300);
 const Color success = Colors.green;
+const Color buttonColor = Color.fromARGB(255, 216, 35, 22);
 
 const kColorScheme = ColorScheme(
   primary: lightYellow,
@@ -43,6 +44,12 @@ final TextStyle fontbodyText = GoogleFonts.poppins(
     fontSize: 12, fontWeight: FontWeight.w300, letterSpacing: 0.25);
 final TextStyle fontbodyTextSmall = GoogleFonts.poppins(
     fontSize: 10, fontWeight: FontWeight.w300, letterSpacing: 0.25);
+final TextStyle fontCardTextLarge = GoogleFonts.poppins(
+  fontSize: 16,
+  fontWeight: FontWeight.w500,
+  letterSpacing: 0.25,
+  color: primaryColor,
+);
 final TextStyle fontCardText = GoogleFonts.poppins(
     fontSize: 14, fontWeight: FontWeight.w300, letterSpacing: 0.25);
 final TextStyle fontCardTextSmall = GoogleFonts.poppins(

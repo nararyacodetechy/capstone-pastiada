@@ -178,11 +178,6 @@ class DetailsTokoPerabotanPage extends StatelessWidget {
                     alignment: Alignment.centerRight,
                     child: InkWell(
                       onTap: () {
-                        // Navigator.pushNamed(
-                        //   context,
-                        //   DetailsTokoBahanBangunanPage.routeName,
-                        //   arguments: bahanBangunan,
-                        // );
                         Navigator.push(
                           context,
                           MaterialPageRoute(

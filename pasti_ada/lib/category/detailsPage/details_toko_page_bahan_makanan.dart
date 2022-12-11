@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:pasti_ada/common/styles.dart';
 import 'package:pasti_ada/data/models_local_toko_bahan_makanan.dart';
+import 'package:pasti_ada/page/choose_item_bahan_makanan_page.dart';
 
 class DetailsTokoBahanMakananPage extends StatelessWidget {
   static const routeName = '/details_toko_page_bahan_makanan';
@@ -168,6 +169,39 @@ class DetailsTokoBahanMakananPage extends StatelessWidget {
                   child: Text(
                     bahanMakanan.descriptionToko,
                     style: fontCardText,
+                  ),
+                ),
+                const SizedBox(
+                  height: 20,
+                ),
+                Container(
+                  margin: const EdgeInsets.only(top: 5),
+                  width: MediaQuery.of(context).size.width,
+                  child: Align(
+                    alignment: Alignment.center,
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => ChooseItemBahanMakananPage(
+                              bahanMakanan: bahanMakanan,
+                            ),
+                          ),
+                        );
+                      },
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: buttonColor,
+                          borderRadius: BorderRadius.circular(3),
+                        ),
+                        padding: const EdgeInsets.all(10),
+                        child: Text(
+                          'Beli Barang',
+                          style: fontCardTextLarge,
+                        ),
+                      ),
+                    ),
                   ),
                 ),
               ],
