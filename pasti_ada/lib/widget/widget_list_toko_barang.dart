@@ -5,7 +5,6 @@ import 'package:pasti_ada/category/fashion_category.dart';
 import 'package:pasti_ada/category/perabotan_category_page.dart';
 import 'package:pasti_ada/common/styles.dart';
 import 'package:pasti_ada/data/barang_terlaris.dart';
-import 'package:pasti_ada/data/data_list_toko.dart';
 import 'package:pasti_ada/data/toko_terdekat.dart';
 import 'package:pasti_ada/page/barang_terlaris_page.dart';
 import 'package:pasti_ada/page/detail_barang_page.dart';
