@@ -1,4 +1,5 @@
 {
+
   "etalastore": [
     {
       "kategori": [
@@ -237,6 +238,7 @@
                   "gambar_barang": "http://www.cvbagus.co.id/wp-content/uploads/2017/07/MSG-1kg.jpg",
                   "harga_barang": 50000,
                   "merek_barang": "Sasa"
+
                 }
               ]
             }
@@ -471,7 +473,10 @@
             }
           ]
         }
+
+
       ]
     }
   ]
 }
+

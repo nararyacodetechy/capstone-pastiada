@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:pasti_ada/common/styles.dart';
 import 'package:pasti_ada/data/barang_terlaris.dart';
 import 'package:pasti_ada/data/toko_terdekat.dart';
+import 'package:pasti_ada/page/barang_terlaris_page.dart';
+import 'package:pasti_ada/page/detail_barang_page.dart';
+import 'package:pasti_ada/page/detail_toko_page.dart';
+import 'package:pasti_ada/page/toko_terdekat_page.dart';
 import 'package:pasti_ada/widget/multi_platform.dart';
 
 class ListToko extends StatelessWidget {
@@ -54,7 +58,10 @@ class ListToko extends StatelessWidget {
                   Container(
                     child: _buildSubHeading(
                       title: 'Toko Terdekat\nPaling Dekat Dengan Rumah Anda',
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.pushNamed(
+                            context, TokoTerdekatPage.routeName);
+                      },
                     ),
                   ),
                   const ItemTokoList(),
@@ -62,7 +69,10 @@ class ListToko extends StatelessWidget {
                     child: _buildSubHeading(
                       title:
                           'Barang Terlaris\nBarang yang paling sering dicari',
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.pushNamed(
+                            context, BarangTerlarisPage.routeName);
+                      },
                     ),
                   ),
                   const ItemBarangList(),
@@ -347,7 +357,10 @@ class ItemTokoList extends StatelessWidget {
               itemBuilder: (context, index) {
                 final toko = tokoTerdekat[index];
                 return InkWell(
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.pushNamed(context, DetailTokoPage.routeName,
+                        arguments: toko);
+                  },
                   child: Card(
                     child: Column(
                       children: [
@@ -407,7 +420,10 @@ class ItemBarangList extends StatelessWidget {
               itemBuilder: (context, index) {
                 final barang = barangTerlaris[index];
                 return InkWell(
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.pushNamed(context, DetailBarangPage.routeName,
+                        arguments: barang);
+                  },
                   child: Card(
                     child: Column(
                       children: [

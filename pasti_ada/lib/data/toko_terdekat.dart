@@ -14,6 +14,8 @@ class TokoTerdekat {
     required this.deskripsi,
     required this.rating,
     required this.gambar,
+    required this.status,
+    required this.jamOperasional,
   });
 
   String id;
@@ -22,6 +24,8 @@ class TokoTerdekat {
   String deskripsi;
   String rating;
   String gambar;
+  String status;
+  String jamOperasional;
 
   factory TokoTerdekat.fromJson(Map<String, dynamic> json) => TokoTerdekat(
         id: json["id"],
@@ -30,6 +34,8 @@ class TokoTerdekat {
         deskripsi: json["deskripsi"],
         rating: json["rating"],
         gambar: json["gambar"],
+        status: json["status"],
+        jamOperasional: json["jamOperasional"],
       );
 
   Map<String, dynamic> toJson() => {
@@ -39,6 +45,8 @@ class TokoTerdekat {
         "deskripsi": deskripsi,
         "rating": rating,
         "gambar": gambar,
+        "status": status,
+        "jamOperasional": jamOperasional,
       };
 }
 
