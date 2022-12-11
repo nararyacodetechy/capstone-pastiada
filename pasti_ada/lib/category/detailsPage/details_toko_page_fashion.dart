@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:pasti_ada/common/styles.dart';
 import 'package:pasti_ada/data/models_local_toko_fashion.dart';
+import 'package:pasti_ada/page/choose_item_page_fashion.dart';
 
 class DetailsTokoFashionPage extends StatelessWidget {
   static const routeName = '/details_toko_page_fashion';
@@ -168,6 +169,40 @@ class DetailsTokoFashionPage extends StatelessWidget {
                   child: Text(
                     tokoFashion.descriptionToko,
                     style: fontCardText,
+                  ),
+                ),
+                Container(
+                  margin: const EdgeInsets.only(top: 5),
+                  width: MediaQuery.of(context).size.width,
+                  child: Align(
+                    alignment: Alignment.centerRight,
+                    child: InkWell(
+                      onTap: () {
+                        // Navigator.pushNamed(
+                        //   context,
+                        //   DetailsTokoBahanBangunanPage.routeName,
+                        //   arguments: bahanBangunan,
+                        // );
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => ChooseItemPageFashion(fashion: tokoFashion,)),
+                        );
+                      },
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: Colors.red.shade400,
+                          borderRadius: BorderRadius.circular(3),
+                        ),
+                        padding: const EdgeInsets.only(
+                            left: 30, right: 30, top: 2, bottom: 2),
+                        child: const Text(
+                          'Beli Barang',
+                          style: TextStyle(
+                              color: Colors.white, fontWeight: FontWeight.bold),
+                        ),
+                      ),
+                    ),
                   ),
                 ),
               ],
