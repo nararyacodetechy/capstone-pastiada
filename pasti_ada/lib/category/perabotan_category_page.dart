@@ -3,6 +3,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
+import 'package:pasti_ada/category/detailsPage/details_toko_page_perabotan.dart';
 import 'package:pasti_ada/data/models_local_toko_perabotan.dart';
 
 class PerabotanCategoryPage extends StatelessWidget {
@@ -132,7 +133,13 @@ class PerabotanCategoryPage extends StatelessWidget {
           Align(
             alignment: Alignment.centerRight,
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                Navigator.pushNamed(
+                  context,
+                  DetailsTokoPerabotanPage.routeName,
+                  arguments: perabotan,
+                );
+              },
               child: Container(
                 decoration: BoxDecoration(
                   color: Colors.red.shade400,
