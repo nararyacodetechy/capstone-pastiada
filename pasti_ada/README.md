@@ -1,4 +1,4 @@
-# pasti_ada
+# shop
 
 A new Flutter project.
 

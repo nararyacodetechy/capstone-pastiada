@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 const Color primaryColor = Colors.white;
+
 const Color secondaryColor = Colors.grey;
 const Color iconColor = Colors.orange;
 
@@ -28,10 +29,14 @@ const kColorScheme = ColorScheme(
 
 final TextStyle fontTitleLarge = GoogleFonts.poppins(
     fontSize: 23, fontWeight: FontWeight.w800, color: iconColor);
+
 final TextStyle fontTitleMedium = GoogleFonts.poppins(
     fontSize: 19, fontWeight: FontWeight.w500, letterSpacing: 0.15);
 final TextStyle fontSubtitle = GoogleFonts.poppins(
-    fontSize: 15, fontWeight: FontWeight.w400, letterSpacing: 0.15);
+    fontSize: 15,
+    fontWeight: FontWeight.w400,
+    letterSpacing: 0.15,
+    color: Colors.orange);
 final TextStyle fontSubtitleMedium = GoogleFonts.poppins(
     fontSize: 13, fontWeight: FontWeight.w400, letterSpacing: 0.15);
 final TextStyle fontbodyText = GoogleFonts.poppins(

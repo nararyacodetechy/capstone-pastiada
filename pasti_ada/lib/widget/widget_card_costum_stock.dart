@@ -3,6 +3,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_number_picker/flutter_number_picker.dart';
 
+import '../common/styles.dart';
+
 class CardCostumStock extends StatefulWidget {
   const CardCostumStock({
     Key? key,
@@ -22,7 +24,7 @@ class _CardCostumStockState extends State<CardCostumStock> {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        border: Border.all(color: Colors.orange),
+        border: Border.all(color: iconColor),
         borderRadius: const BorderRadius.all(Radius.circular(10)),
       ),
       margin: const EdgeInsets.symmetric(vertical: 5),
@@ -34,7 +36,7 @@ class _CardCostumStockState extends State<CardCostumStock> {
             tag: "1",
             child: Container(
               decoration: const BoxDecoration(
-                color: Colors.orange,
+                color: iconColor,
                 borderRadius: BorderRadius.all(Radius.circular(10)),
               ),
               width: 50,
@@ -68,10 +70,10 @@ class _CardCostumStockState extends State<CardCostumStock> {
                   child: Center(
                     child: CustomNumberPicker(
                       shape: const Border(
-                        top: BorderSide(color: Colors.orange),
-                        left: BorderSide(color: Colors.orange),
-                        right: BorderSide(color: Colors.orange),
-                        bottom: BorderSide(color: Colors.orange),
+                        top: BorderSide(color: iconColor),
+                        left: BorderSide(color: iconColor),
+                        right: BorderSide(color: iconColor),
+                        bottom: BorderSide(color: iconColor),
                       ),
                       initialValue: 1,
                       maxValue: 50,
@@ -83,7 +85,7 @@ class _CardCostumStockState extends State<CardCostumStock> {
                       valueTextStyle: const TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.w500,
-                          color: Colors.orange),
+                          color: iconColor),
                     ),
                   ),
                 ),
@@ -91,7 +93,7 @@ class _CardCostumStockState extends State<CardCostumStock> {
                   width: 50,
                   child: Icon(
                     Icons.close,
-                    color: Colors.red,
+                    color: iconColor,
                   ),
                 )
               ],

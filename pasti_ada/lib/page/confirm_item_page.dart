@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+
 import 'package:pasti_ada/widget/widget_card_costum_stock.dart';
+
+import '../common/styles.dart';
 
 class ConfirmItemPage extends StatelessWidget {
   const ConfirmItemPage({super.key});
@@ -8,7 +11,7 @@ class ConfirmItemPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.orange,
+        backgroundColor: iconColor,
         title: const Text("Konfirmasi Barang"),
       ),
       body: Stack(
@@ -49,7 +52,7 @@ class ButtonOrderConfirm extends StatelessWidget {
     return Container(
       height: 60,
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: primaryColor,
         boxShadow: [
           BoxShadow(
             color: Colors.grey.withOpacity(0.5),
@@ -86,7 +89,7 @@ class ButtonOrderConfirm extends StatelessWidget {
                       builder: (context) => const ConfirmItemPage()),
                 ),
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.orange,
+                  backgroundColor: iconColor,
                 ),
                 child: const Text("Pesan Sekarang"),
               ),
