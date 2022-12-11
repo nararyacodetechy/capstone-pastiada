@@ -8,7 +8,7 @@
           "gambar_toko": "https://hinyong.com/wp-content/uploads/2019/05/cara-memulai-usaha-toko-mebel-dan-furniture-modern-dan-minimalis.jpg",
           "alamat_toko": "Jalan I Gusti Ngurah Rai",
           "description_toko": "Selamat datang di Toko Artha! Kami menjual berbagai macam jenis perabotan mulai dari, lemari, Meja makan,Bantal duduk, meja kerja dan lain-lain.",
-          "rating_toko": "4.5",
+          "rating_toko": "4,5",
           "barang": [
             {
               "id_barang": "3irWee6pZ7",
@@ -44,6 +44,13 @@
               "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/239/1023961_PE833372_S4.jpg",
               "harga_barang": 299000,
               "merek_barang": "BAGGEBO"
+            },
+            {
+              "id_barang": "6j95KEAjjM",
+              "nama_barang": "Piring",
+              "gambar_barang": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/144/0714493_PE730105_S4.jpg",
+              "harga_barang": 199000,
+              "merek_barang": "BACKIG"
             }
           ]
         },
@@ -53,7 +60,7 @@
           "gambar_toko": "https://jejakpiknik.com/wp-content/uploads/2021/08/toko-furniture-di-cengkareng-jakarta-barat.jpg",
           "alamat_toko": "Jalan Tangkuban Perahu 201",
           "description_toko": "Selamat datang di Wijaya Makmur! Kami menjual berbagai macam jenis perabotan mulai dari, sofa, lampu tidur, lemari, Meja makan, rak buku, Bantal duduk, rak sepatu dan lain-lain",
-          "rating_toko": "4.2",
+          "rating_toko": "4,2",
           "barang": [
             {
               "id_barang": "fq9WTipiQS",
@@ -109,7 +116,7 @@
           "gambar_toko": "https://tempat.info/wp-content/uploads/2021/06/toko-bangunan-bali-10.jpg",
           "alamat_toko": "Jalan Teuku Umar Barat No. 888, Pemecutan Klod, Kec. Denpasar Bar., Kota Denpasar, Bali 80119",
           "description_toko": "Toko yang menjual bahan bangunan",
-          "rating_toko": "4.5",
+          "rating_toko": "4,5",
           "barang": [
             {
               "id_barang": "SRrXqGCgWV",
