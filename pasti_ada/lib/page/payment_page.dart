@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 class PilihPembayaran extends StatefulWidget {
   const PilihPembayaran({Key? key}) : super(key: key);
 
+  static const routeName = '/pembayaran_page';
+
   @override
   State<PilihPembayaran> createState() => _PilihPembayaranState();
 }
@@ -68,13 +70,6 @@ class _PilihPembayaranState extends State<PilihPembayaran> {
         ),
         backgroundColor: Colors.grey[100],
         appBar: AppBar(
-          actions: [
-            ElevatedButton(
-                child: const Icon(Icons.arrow_back),
-                onPressed: () {
-                  Navigator.pop(context);
-                }),
-          ],
           backgroundColor: Colors.white,
           title: const Text(
             "Pilih Metode Pembayaran",
@@ -85,7 +80,9 @@ class _PilihPembayaranState extends State<PilihPembayaran> {
           ),
           automaticallyImplyLeading: false,
           leading: InkWell(
-              onTap: () {},
+              onTap: () {
+                Navigator.pop(context);
+              },
               child: const Icon(
                 Icons.arrow_back,
                 color: Colors.orange,

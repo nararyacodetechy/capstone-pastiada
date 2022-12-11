@@ -14,13 +14,13 @@ import 'package:pasti_ada/data/toko_terdekat.dart';
 import 'package:pasti_ada/page/barang_terlaris_page.dart';
 import 'package:pasti_ada/page/detail_toko_page.dart';
 import 'package:pasti_ada/page/home_page.dart';
+import 'package:pasti_ada/page/payment_page.dart';
 import 'package:pasti_ada/page/riwayat_transaksi_page.dart';
 import 'package:pasti_ada/page/settings_page.dart';
 import 'package:pasti_ada/page/toko_terdekat_page.dart';
 import 'common/styles.dart';
 import 'page/detail_barang_page.dart';
 import 'page/favorite_page.dart';
-
 
 void main() {
   runApp(const MyApp());
@@ -91,6 +91,9 @@ class MyApp extends StatelessWidget {
                 builder: (_) => DetailsTokoBahanBangunanPage(
                       bahanBangunan: bahanBangunan,
                     ));
+          case PilihPembayaran.routeName:
+            return MaterialPageRoute(
+                builder: (_) => const PilihPembayaran());
           default:
             return MaterialPageRoute(builder: (_) {
               return const Scaffold(

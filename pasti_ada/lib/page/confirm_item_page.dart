@@ -84,11 +84,7 @@ class ButtonOrderConfirm extends StatelessWidget {
             Container(
               margin: const EdgeInsets.only(right: 10),
               child: ElevatedButton(
-                onPressed: () => Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                      builder: (context) => const PilihPembayaran()),
-                ),
+                onPressed: () => Navigator.pushNamed(context, PilihPembayaran.routeName),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: iconColor,
                 ),
