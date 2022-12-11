@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:pasti_ada/common/styles.dart';
+import 'package:pasti_ada/page/favorite_page.dart';
+import 'package:pasti_ada/page/riwayat_transaksi_page.dart';
+import 'package:pasti_ada/page/settings_page.dart';
 import 'package:pasti_ada/widget/widget_list_toko_barang.dart';
 import 'package:pasti_ada/widget/multi_platform.dart';
 
@@ -16,10 +19,9 @@ class _HomePageState extends State<HomePage> {
 
   final List<Widget> _listWidget = [
     const ListToko(),
-    // const OthersPage(),
-    // const HistoryPage(),
-    // const FavoritePage(),
-    // const SettingsPage(),
+    const FavoritePage(),
+    const HistoryPage(),
+    const SettingsPage(),
   ];
 
   final List<BottomNavigationBarItem> _bottomNavbarItems = [
@@ -27,7 +29,9 @@ class _HomePageState extends State<HomePage> {
     const BottomNavigationBarItem(
         icon: Icon(Icons.favorite), label: 'Favorite'),
     const BottomNavigationBarItem(
-        icon: Icon(Icons.shopping_bag), label: 'Riwayat Transaksi')
+        icon: Icon(Icons.shopping_bag), label: 'Riwayat Transaksi'),
+    const BottomNavigationBarItem(
+        icon: Icon(Icons.settings), label: 'Pengaturan'),
   ];
 
   void _bottomNavTapped(int index) {
