@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_number_picker/flutter_number_picker.dart';
 import 'package:pasti_ada/page/payment_page.dart';
-import 'package:pasti_ada/widget/widget_card_costum_stock.dart';
 
 import '../common/styles.dart';
 
@@ -36,7 +35,7 @@ class ConfirmItemPage extends StatelessWidget {
                             horizontal: 8.0, vertical: 8.0),
                         leading: Hero(
                           tag: "1",
-                          child: Container(
+                          child: SizedBox(
                             width: 50,
                             height: 50,
                             child: Image.network(
@@ -114,7 +113,7 @@ class ConfirmItemPage extends StatelessWidget {
                             horizontal: 8.0, vertical: 8.0),
                         leading: Hero(
                           tag: "2",
-                          child: Container(
+                          child: SizedBox(
                             width: 50,
                             height: 50,
                             child: Image.network(
@@ -192,7 +191,7 @@ class ConfirmItemPage extends StatelessWidget {
                             horizontal: 8.0, vertical: 8.0),
                         leading: Hero(
                           tag: "3",
-                          child: Container(
+                          child: SizedBox(
                             width: 50,
                             height: 50,
                             child: Image.network(
@@ -270,7 +269,7 @@ class ConfirmItemPage extends StatelessWidget {
                             horizontal: 8.0, vertical: 8.0),
                         leading: Hero(
                           tag: "4",
-                          child: Container(
+                          child: SizedBox(
                             width: 50,
                             height: 50,
                             child: Image.network(
@@ -348,7 +347,7 @@ class ConfirmItemPage extends StatelessWidget {
                             horizontal: 8.0, vertical: 8.0),
                         leading: Hero(
                           tag: "5",
-                          child: Container(
+                          child: SizedBox(
                             width: 50,
                             height: 50,
                             child: Image.network(
@@ -426,7 +425,7 @@ class ConfirmItemPage extends StatelessWidget {
                             horizontal: 8.0, vertical: 8.0),
                         leading: Hero(
                           tag: "6",
-                          child: Container(
+                          child: SizedBox(
                             width: 50,
                             height: 50,
                             child: Image.network(
@@ -504,10 +503,11 @@ class ConfirmItemPage extends StatelessWidget {
                             horizontal: 8.0, vertical: 8.0),
                         leading: Hero(
                           tag: "8",
-                          child: Container(
+                          child: SizedBox(
                             width: 50,
                             height: 50,
-                            child: Image.network('https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//83/MTA-11332415/no_brand_celana_wanita_-_celana_bahan_-_full01_gcoq5dab.jpg'),
+                            child: Image.network(
+                                'https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//83/MTA-11332415/no_brand_celana_wanita_-_celana_bahan_-_full01_gcoq5dab.jpg'),
                           ),
                         ),
                         title: Text(
@@ -581,7 +581,7 @@ class ConfirmItemPage extends StatelessWidget {
                             horizontal: 8.0, vertical: 8.0),
                         leading: Hero(
                           tag: "7",
-                          child: Container(
+                          child: SizedBox(
                             width: 50,
                             height: 50,
                             child: Image.network(
