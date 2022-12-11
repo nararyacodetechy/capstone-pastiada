@@ -3,6 +3,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
+import 'package:pasti_ada/category/detailsPage/details_toko_page_fashion.dart';
 import 'package:pasti_ada/data/models_local_toko_fashion.dart';
 
 class FashionCategoryPage extends StatelessWidget {
@@ -28,7 +29,7 @@ class FashionCategoryPage extends StatelessWidget {
   }
 
   @override
-  Widget _cardFashionItem(BuildContext context, Fashion perabotan) {
+  Widget _cardFashionItem(BuildContext context, Fashion fashion) {
     return SizedBox(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -41,7 +42,7 @@ class FashionCategoryPage extends StatelessWidget {
                 child: CachedNetworkImage(
                   width: 100,
                   height: 100,
-                  imageUrl: perabotan.gambarToko,
+                  imageUrl: fashion.gambarToko,
                   imageBuilder: (context, imageProvider) => Container(
                     height: 100,
                     width: 100,
@@ -69,7 +70,7 @@ class FashionCategoryPage extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        perabotan.namaToko,
+                        fashion.namaToko,
                         style: TextStyle(
                             fontSize: 14,
                             fontWeight: FontWeight.bold,
@@ -85,7 +86,7 @@ class FashionCategoryPage extends StatelessWidget {
                         child: Row(
                           children: [
                             RatingBarIndicator(
-                              rating: double.parse("4.5"),
+                              rating: double.parse(fashion.ratingToko),
                               itemCount: 5,
                               itemBuilder: (context, index) => Icon(
                                 Icons.star,
@@ -111,7 +112,7 @@ class FashionCategoryPage extends StatelessWidget {
                             ),
                             Expanded(
                               child: Text(
-                                perabotan.alamatToko,
+                                fashion.alamatToko,
                                 maxLines: 2,
                                 style: TextStyle(
                                     fontSize: 14,
@@ -133,7 +134,13 @@ class FashionCategoryPage extends StatelessWidget {
           Align(
             alignment: Alignment.centerRight,
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                Navigator.pushNamed(
+                  context,
+                  DetailsTokoFashionPage.routeName,
+                  arguments: fashion,
+                );
+              },
               child: Container(
                 decoration: BoxDecoration(
                   color: Colors.red.shade400,

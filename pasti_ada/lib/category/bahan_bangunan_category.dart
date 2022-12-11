@@ -3,6 +3,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
+import 'package:pasti_ada/category/detailsPage/details_toko_page_bahan_bangunan.dart';
 import 'package:pasti_ada/data/models_local_toko_bahan_bangunan.dart';
 
 class BahanBangunanCategoryPage extends StatelessWidget {
@@ -133,7 +134,13 @@ class BahanBangunanCategoryPage extends StatelessWidget {
           Align(
             alignment: Alignment.centerRight,
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                Navigator.pushNamed(
+                  context,
+                  DetailsTokoBahanBangunanPage.routeName,
+                  arguments: bahanBangunan,
+                );
+              },
               child: Container(
                 decoration: BoxDecoration(
                   color: Colors.red.shade400,

@@ -10,31 +10,91 @@ class ConfirmItemPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: iconColor,
-        title: const Text("Konfirmasi Barang"),
-      ),
       body: Stack(
         alignment: AlignmentDirectional.bottomEnd,
         children: [
-          SingleChildScrollView(
-            child: Container(
-              margin: const EdgeInsets.only(bottom: 60),
-              padding: const EdgeInsets.all(10),
-              child: Column(
+          CustomScrollView(slivers: [
+            SliverAppBar(
+              title: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: const [
-                  CardCostumStock(),
-                  CardCostumStock(),
-                  CardCostumStock(),
-                  CardCostumStock(),
-                  CardCostumStock(),
-                  CardCostumStock(),
-                  CardCostumStock(),
-                  CardCostumStock(),
+                  // CircleAvatar(
+                  //   backgroundColor: iconColor,
+                  //   child: Icon(
+                  //     Icons.arrow_back,
+                  //     color: Colors.white,
+                  //   ),
+                  // ),
+                  Text("Kostumisasi Barang"),
+                  CircleAvatar(
+                    backgroundColor: iconColor,
+                    child: Icon(Icons.person, color: primaryColor),
+                  ),
                 ],
               ),
+              bottom: PreferredSize(
+                preferredSize: const Size.fromHeight(80),
+                child: Container(
+                  height: 80,
+                  color: primaryColor,
+                  padding: const EdgeInsets.all(10),
+                  child: TextField(
+                    textAlignVertical: TextAlignVertical.center,
+                    style: const TextStyle(color: iconColor, fontSize: 18),
+                    decoration: InputDecoration(
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(10),
+                        borderSide: const BorderSide(color: iconColor),
+                      ),
+                      hintText: 'Cari Barang disini...',
+                      fillColor: primaryColor,
+                      hintStyle: const TextStyle(
+                          fontSize: 18.0,
+                          color: Color.fromARGB(255, 180, 180, 180)),
+                      prefixIcon: const Icon(
+                        Icons.search,
+                        color: iconColor,
+                      ),
+                    ),
+                    onChanged: (value) {
+                      // Provider.of<SearchProvider>(context, listen: false)
+                      //     .restoSearch(value);
+                    },
+                  ),
+                ),
+              ),
+              pinned: true,
+              expandedHeight: 300,
+              backgroundColor: iconColor,
+              flexibleSpace: FlexibleSpaceBar(
+                background: Image.network(
+                  'https://deras.co.id/wp-content/uploads/2016/03/maps-local-search1-ss-1920-800x450-660x330.jpg',
+                  width: double.maxFinite,
+                  fit: BoxFit.cover,
+                ),
+              ),
             ),
-          ),
+            SliverToBoxAdapter(
+              child: Container(
+                margin: const EdgeInsets.only(bottom: 100),
+                padding: const EdgeInsets.all(10),
+                child: Column(
+                  children: const [
+                    CardCostumStock(),
+                    CardCostumStock(),
+                    CardCostumStock(),
+                    CardCostumStock(),
+                    CardCostumStock(),
+                    CardCostumStock(),
+                    CardCostumStock(),
+                    CardCostumStock(),
+                    CardCostumStock(),
+
+                  ],
+                ),
+              ),
+            ),
+          ]),
           const ButtonOrderConfirm()
         ],
       ),
