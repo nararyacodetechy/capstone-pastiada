@@ -100,3 +100,13 @@ class Barang {
         "merek_barang": merekBarang,
     };
 }
+
+List<Barang> parseBarangFashion(String? json) {
+  if (json == null) {
+    return [];
+  }
+
+  final List parsed = jsonDecode(json)["barang"];
+  return parsed.map((json) => Barang.fromJson(json)).toList();
+}
+
