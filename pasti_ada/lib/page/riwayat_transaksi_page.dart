@@ -8,7 +8,9 @@ class HistoryPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-        child: Text("Ini Halaman Riwayat Transaksi"),
+        child: Text(
+          "Ini Halaman Riwayat Transaksi",
+        ),
       ),
     );
   }
