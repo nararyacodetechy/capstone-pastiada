@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:pasti_ada/category/perabotan_category_page.dart';
 import 'package:pasti_ada/common/styles.dart';
 import 'package:pasti_ada/data/barang_terlaris.dart';
+import 'package:pasti_ada/data/data_list_toko.dart';
 import 'package:pasti_ada/data/toko_terdekat.dart';
 import 'package:pasti_ada/widget/multi_platform.dart';
 
@@ -200,10 +202,14 @@ class ListToko extends StatelessWidget {
                         children: <Widget>[
                           GestureDetector(
                             onTap: () {
-                              // Navigator.push(context,
-                              //     MaterialPageRoute(builder: (context) {
-                              //   return PerabotanCategoryPage();
-                              // }));
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) {
+                                    return const PerabotanCategoryPage();
+                                  },
+                                ),
+                              );
                             },
                             child: Column(
                               children: <Widget>[
