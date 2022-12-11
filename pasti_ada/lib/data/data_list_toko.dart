@@ -86,14 +86,14 @@ class Toko {
       };
 }
 
-// List<Toko> parseTokos(String? json) {
-//   if (json == null) {
-//     return [];
-//   }
+List<Toko> parseTokos(String? json) {
+  if (json == null) {
+    return [];
+  }
 
-//   final List parsed = jsonDecode(json)["kategori"];
-//   return parsed.map((json) => Toko.fromJson(json)).toList();
-// }
+  final List parsed = jsonDecode(json)["kategori"];
+  return parsed.map((json) => Toko.fromJson(json)).toList();
+}
 
 class Barang {
   Barang({
