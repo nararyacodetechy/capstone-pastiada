@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pasti_ada/page/home_page.dart';
 
 class PilihPembayaran extends StatefulWidget {
   const PilihPembayaran({Key? key}) : super(key: key);
@@ -51,6 +52,7 @@ class _PilihPembayaranState extends State<PilihPembayaran> {
               ),
               Expanded(
                   child: InkWell(
+                    onTap: () => Navigator.pushNamed(context, HomePage.routeName),
                 child: Container(
                   color: Colors.orange,
                   child: Column(
