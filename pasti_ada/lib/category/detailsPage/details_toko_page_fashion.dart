@@ -176,35 +176,44 @@ class DetailsTokoFashionPage extends StatelessWidget {
                   width: MediaQuery.of(context).size.width,
                   child: Align(
                     alignment: Alignment.centerRight,
+                    child: Text(
+                      tokoFashion.descriptionToko,
+                      style: fontCardText,
+                    ),
+                  ),
+                ),
+                const SizedBox(
+                  height: 20,
+                ),
+                Container(
+                  margin: const EdgeInsets.only(top: 5),
+                  width: MediaQuery.of(context).size.width,
+                  child: Align(
+                    alignment: Alignment.center,
                     child: InkWell(
                       onTap: () {
-                        // Navigator.pushNamed(
-                        //   context,
-                        //   DetailsTokoBahanBangunanPage.routeName,
-                        //   arguments: bahanBangunan,
-                        // );
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => ChooseItemPageFashion(fashion: tokoFashion,)),
+                              builder: (context) => ChooseItemPageFashion(
+                                    fashion: tokoFashion,
+                                  )),
                         );
                       },
                       child: Container(
                         decoration: BoxDecoration(
-                          color: Colors.red.shade400,
+                          color: buttonColor,
                           borderRadius: BorderRadius.circular(3),
                         ),
-                        padding: const EdgeInsets.only(
-                            left: 30, right: 30, top: 2, bottom: 2),
-                        child: const Text(
+                        padding: const EdgeInsets.all(10),
+                        child: Text(
                           'Beli Barang',
-                          style: TextStyle(
-                              color: Colors.white, fontWeight: FontWeight.bold),
+                          style: fontCardTextLarge,
                         ),
                       ),
                     ),
                   ),
-                ),
+                )
               ],
             ),
           )

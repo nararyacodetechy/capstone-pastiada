@@ -61,6 +61,36 @@
           "merek_barang": "Sasa"
         }
       ]
+    },    {
+      "id_toko": "EjAEutSmYd",
+      "nama_toko": "Warung Bli Gede",
+      "gambar_toko": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFD2bpz0OLb4gCc2hNAIyFSTQedwOyPviYMNmMMCZxWljGUx2S_FVdEv-8N8ykhOW--cM&usqp=CAU",
+      "alamat_toko": "Jalan Tukad Barito",
+      "description_toko": "Toko yang menjual sembako dan keperluan sehari-hari",
+      "rating_toko": "4.8",
+      "barang": [
+        {
+          "id_barang": "2FYxp5SB8m",
+          "nama_barang": "Saos Sambal",
+          "gambar_barang": "https://images.tokopedia.net/img/cache/700/product-1/2017/11/30/21722775/21722775_c50a8f9a-def3-494d-a782-349c053c971e_700_700.jpg",
+          "harga_barang": 6200,
+          "merek_barang": "ABC"
+        },
+        {
+          "id_barang": "WiizVnyM3z",
+          "nama_barang": "Sambal Terasi",
+          "gambar_barang": "https://cf.shopee.co.id/file/81e7f7dfdf64f78b84438b98368bc023",
+          "harga_barang": 13000,
+          "merek_barang": "ABC"
+        },
+        {
+          "id_barang": "Keju Craft",
+          "nama_barang": "Sasa 1 Kg",
+          "gambar_barang": "https://images.tokopedia.net/img/cache/500-square/product-1/2020/5/3/81294049/81294049_3318fde9-26d7-4140-bc78-9b15a112fa5a_846_846",
+          "harga_barang": 10500,
+          "merek_barang": "Cheddar"
+        }
+      ]
     }
   ]
 }
