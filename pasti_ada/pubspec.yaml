@@ -45,3 +45,4 @@ flutter:
     - assets/icon/
     - assets/json/toko_terdekat.json
     - assets/json/barang_terlaris.json
+    - assets/json/local_toko.json
