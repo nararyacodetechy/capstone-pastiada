@@ -21,10 +21,10 @@ class ChooseItemPageFashion extends StatelessWidget {
               SliverAppBar(
                 title: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
+                  children: const [
                     Text(
                       "Pilih Barang",
-                      style: fontTitleLarge,
+                      style: TextStyle(color: Colors.white),
                     ),
                   ],
                 ),
