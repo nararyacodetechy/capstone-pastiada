@@ -68,6 +68,13 @@ class _PilihPembayaranState extends State<PilihPembayaran> {
         ),
         backgroundColor: Colors.grey[100],
         appBar: AppBar(
+          actions: [
+            ElevatedButton(
+                child: const Icon(Icons.arrow_back),
+                onPressed: () {
+                  Navigator.pop(context);
+                }),
+          ],
           backgroundColor: Colors.white,
           title: const Text(
             "Pilih Metode Pembayaran",
