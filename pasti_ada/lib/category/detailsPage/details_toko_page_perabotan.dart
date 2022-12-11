@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:pasti_ada/common/styles.dart';
+
 import 'package:pasti_ada/data/models_local_toko_perabotan.dart';
-import 'package:pasti_ada/page/choose_item_page.dart';
+
 import 'package:pasti_ada/page/choose_item_page_perabotan.dart';
 
 class DetailsTokoPerabotanPage extends StatelessWidget {
@@ -177,30 +178,44 @@ class DetailsTokoPerabotanPage extends StatelessWidget {
                   width: MediaQuery.of(context).size.width,
                   child: Align(
                     alignment: Alignment.centerRight,
+                    child: Text(
+                      tokoPerabotan.descriptionToko,
+                      style: fontCardText,
+                    ),
+                  ),
+                ),
+                const SizedBox(
+                  height: 20,
+                ),
+                Container(
+                  margin: const EdgeInsets.only(top: 5),
+                  width: MediaQuery.of(context).size.width,
+                  child: Align(
+                    alignment: Alignment.center,
                     child: InkWell(
                       onTap: () {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => ChooseItemPagePerabotan(perabotan: tokoPerabotan,)),
+                              builder: (context) => ChooseItemPagePerabotan(
+                                    perabotan: tokoPerabotan,
+                                  )),
                         );
                       },
                       child: Container(
                         decoration: BoxDecoration(
-                          color: Colors.red.shade400,
+                          color: buttonColor,
                           borderRadius: BorderRadius.circular(3),
                         ),
-                        padding: const EdgeInsets.only(
-                            left: 30, right: 30, top: 2, bottom: 2),
-                        child: const Text(
+                        padding: const EdgeInsets.all(10),
+                        child: Text(
                           'Beli Barang',
-                          style: TextStyle(
-                              color: Colors.white, fontWeight: FontWeight.bold),
+                          style: fontCardTextLarge,
                         ),
                       ),
                     ),
                   ),
-                ),
+                )
               ],
             ),
           )

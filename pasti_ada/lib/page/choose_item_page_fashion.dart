@@ -21,18 +21,10 @@ class ChooseItemPageFashion extends StatelessWidget {
               SliverAppBar(
                 title: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [
-                    // CircleAvatar(
-                    //   backgroundColor: iconColor,
-                    //   child: Icon(
-                    //     Icons.arrow_back,
-                    //     color: Colors.white,
-                    //   ),
-                    // ),
-                    Text("Pilih Barang"),
-                    CircleAvatar(
-                      backgroundColor: iconColor,
-                      child: Icon(Icons.person, color: primaryColor),
+                  children: [
+                    Text(
+                      "Pilih Barang",
+                      style: fontTitleLarge,
                     ),
                   ],
                 ),
@@ -60,10 +52,7 @@ class ChooseItemPageFashion extends StatelessWidget {
                           color: iconColor,
                         ),
                       ),
-                      onChanged: (value) {
-                        // Provider.of<SearchProvider>(context, listen: false)
-                        //     .restoSearch(value);
-                      },
+                      onChanged: (value) {},
                     ),
                   ),
                 ),
@@ -105,7 +94,7 @@ class CardProduct extends StatelessWidget {
       itemBuilder: (context, index) {
         return Container(
           decoration: BoxDecoration(
-            border: Border.all(color: Colors.orange),
+            border: Border.all(color: iconColor),
             borderRadius: const BorderRadius.all(Radius.circular(10)),
           ),
           margin: const EdgeInsets.symmetric(vertical: 5),
@@ -140,14 +129,6 @@ class CardProduct extends StatelessWidget {
               ),
               trailing: Column(
                 children: const [
-                  // Container(
-                  //   padding: const EdgeInsets.all(5),
-                  //   decoration: BoxDecoration(
-                  //     border: Border.all(color: Colors.orange),
-                  //     borderRadius: const BorderRadius.all(Radius.circular(5)),
-                  //   ),
-                  //   child: const Text("Tersedia: 28"),
-                  // ),
                   ChooseItem(),
                 ],
               ),
