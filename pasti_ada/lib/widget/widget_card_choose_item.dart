@@ -49,14 +49,6 @@ class CardProduct extends StatelessWidget {
           ),
           trailing: Column(
             children: const [
-              // Container(
-              //   padding: const EdgeInsets.all(5),
-              //   decoration: BoxDecoration(
-              //     border: Border.all(color: Colors.orange),
-              //     borderRadius: const BorderRadius.all(Radius.circular(5)),
-              //   ),
-              //   child: const Text("Tersedia: 28"),
-              // ),
               ChooseItem(),
             ],
           ),
