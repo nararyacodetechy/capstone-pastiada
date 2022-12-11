@@ -21,18 +21,10 @@ class ChooseItemPagePerabotan extends StatelessWidget {
               SliverAppBar(
                 title: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [
-                    // CircleAvatar(
-                    //   backgroundColor: iconColor,
-                    //   child: Icon(
-                    //     Icons.arrow_back,
-                    //     color: Colors.white,
-                    //   ),
-                    // ),
-                    Text("Pilih Barang"),
-                    CircleAvatar(
-                      backgroundColor: iconColor,
-                      child: Icon(Icons.person, color: primaryColor),
+                  children: [
+                    Text(
+                      "Pilih Barang",
+                      style: fontTitleLarge,
                     ),
                   ],
                 ),
