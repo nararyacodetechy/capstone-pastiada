@@ -15,7 +15,10 @@ class DetailsTokoFashionPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Details Toko'),
+        title: Text(
+          'Details Toko',
+          style: fontTitleLarge,
+        ),
       ),
       body: ListView(
         children: [
@@ -73,12 +76,12 @@ class DetailsTokoFashionPage extends StatelessWidget {
                     const SizedBox(
                       width: 6,
                     ),
-                    Text(
-                      tokoFashion.alamatToko,
-                      style: fontCardText,
-                      overflow: TextOverflow.ellipsis,
-                      maxLines: 1,
-                    )
+                    Expanded(
+                      child: Text(
+                        tokoFashion.alamatToko,
+                        style: fontCardText,
+                      ),
+                    ),
                   ],
                 ),
                 const SizedBox(
@@ -130,7 +133,8 @@ class DetailsTokoFashionPage extends StatelessWidget {
                         child: Row(
                           children: [
                             RatingBarIndicator(
-                              rating: double.parse(tokoFashion.ratingToko.toString()),
+                              rating: double.parse(
+                                  tokoFashion.ratingToko.toString()),
                               itemBuilder: (context, index) => const Icon(
                                 Icons.star_rounded,
                                 color: iconColor,

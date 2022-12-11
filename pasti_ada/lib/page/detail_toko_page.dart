@@ -16,7 +16,10 @@ class DetailTokoPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Detail Toko'),
+        title: Text(
+          'Detail Toko',
+          style: fontTitleLarge,
+        ),
       ),
       body: ListView(
         children: [

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pasti_ada/common/styles.dart';
 
 class SettingsPage extends StatelessWidget {
   static const routeName = '/settings_page';
@@ -8,10 +9,16 @@ class SettingsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Settings'),
+        title: Text(
+          'Settings',
+          style: fontTitleLarge,
+        ),
       ),
-      body: const Center(
-        child: Text("Ini Halaman Settings"),
+      body: Center(
+        child: Text(
+          "Ini Halaman Settings",
+          style: fontTitleMedium,
+        ),
       ),
     );
   }

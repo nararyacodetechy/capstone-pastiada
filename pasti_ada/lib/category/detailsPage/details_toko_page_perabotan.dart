@@ -17,7 +17,10 @@ class DetailsTokoPerabotanPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Details Toko'),
+        title: Text(
+          'Details Toko',
+          style: fontTitleLarge,
+        ),
       ),
       body: ListView(
         children: [
@@ -75,12 +78,12 @@ class DetailsTokoPerabotanPage extends StatelessWidget {
                     const SizedBox(
                       width: 6,
                     ),
-                    Text(
-                      tokoPerabotan.alamatToko,
-                      style: fontCardText,
-                      overflow: TextOverflow.ellipsis,
-                      maxLines: 1,
-                    )
+                    Expanded(
+                      child: Text(
+                        tokoPerabotan.alamatToko,
+                        style: fontCardText,
+                      ),
+                    ),
                   ],
                 ),
                 const SizedBox(
@@ -182,11 +185,10 @@ class DetailsTokoPerabotanPage extends StatelessWidget {
                         //   arguments: bahanBangunan,
                         // );
                         Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) =>
-                                      const ChooseItemPage()),
-                            );
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const ChooseItemPage()),
+                        );
                       },
                       child: Container(
                         decoration: BoxDecoration(

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pasti_ada/common/styles.dart';
 
 class FavoritePage extends StatelessWidget {
   static const routeName = '/favorite_page';
@@ -8,10 +9,16 @@ class FavoritePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Favorite'),
+        title: Text(
+          'Favorite',
+          style: fontTitleLarge,
+        ),
       ),
-      body: const Center(
-        child: Text("Ini Halaman Favorit"),
+      body: Center(
+        child: Text(
+          "Ini Halaman Favorit",
+          style: fontTitleMedium,
+        ),
       ),
     );
   }

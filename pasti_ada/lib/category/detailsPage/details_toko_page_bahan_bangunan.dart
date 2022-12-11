@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:pasti_ada/common/styles.dart';
 import 'package:pasti_ada/data/models_local_toko_bahan_bangunan.dart';
-import 'package:pasti_ada/data/models_local_toko_fashion.dart';
 
 class DetailsTokoBahanBangunanPage extends StatelessWidget {
   static const routeName = '/details_toko_page_bahan_bangunan';
@@ -16,7 +15,10 @@ class DetailsTokoBahanBangunanPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Details Toko'),
+        title: Text(
+          'Details Toko',
+          style: fontTitleLarge,
+        ),
       ),
       body: ListView(
         children: [
@@ -74,12 +76,11 @@ class DetailsTokoBahanBangunanPage extends StatelessWidget {
                     const SizedBox(
                       width: 6,
                     ),
-                    Text(
+                    Expanded(
+                        child: Text(
                       bahanBangunan.alamatToko,
                       style: fontCardText,
-                      overflow: TextOverflow.ellipsis,
-                      maxLines: 1,
-                    )
+                    ))
                   ],
                 ),
                 const SizedBox(

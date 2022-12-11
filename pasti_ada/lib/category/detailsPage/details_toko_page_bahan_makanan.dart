@@ -15,7 +15,10 @@ class DetailsTokoBahanMakananPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Details Toko'),
+        title: Text(
+          'Details Toko',
+          style: fontTitleLarge,
+        ),
       ),
       body: ListView(
         children: [
@@ -73,12 +76,12 @@ class DetailsTokoBahanMakananPage extends StatelessWidget {
                     const SizedBox(
                       width: 6,
                     ),
-                    Text(
-                      bahanMakanan.alamatToko,
-                      style: fontCardText,
-                      overflow: TextOverflow.ellipsis,
-                      maxLines: 1,
-                    )
+                    Expanded(
+                      child: Text(
+                        bahanMakanan.alamatToko,
+                        style: fontCardText,
+                      ),
+                    ),
                   ],
                 ),
                 const SizedBox(
@@ -130,7 +133,8 @@ class DetailsTokoBahanMakananPage extends StatelessWidget {
                         child: Row(
                           children: [
                             RatingBarIndicator(
-                              rating: double.parse(bahanMakanan.ratingToko.toString()),
+                              rating: double.parse(
+                                  bahanMakanan.ratingToko.toString()),
                               itemBuilder: (context, index) => const Icon(
                                 Icons.star_rounded,
                                 color: iconColor,

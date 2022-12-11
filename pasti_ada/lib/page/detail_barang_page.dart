@@ -15,7 +15,10 @@ class DetailBarangPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Detail Barang'),
+        title: Text(
+          'Detail Barang',
+          style: fontTitleLarge,
+        ),
       ),
       body: ListView(
         children: [
@@ -110,7 +113,7 @@ class DetailBarangPage extends StatelessWidget {
                   Container(
                       margin: const EdgeInsets.only(top: 20),
                       width: MediaQuery.of(context).size.width,
-                      child: Text("Deskripsi Barang", style: fontSubtitle)),
+                      child: Text("Deskripsi Barang", style: fontTitleMedium)),
                   Container(
                       margin: const EdgeInsets.only(top: 5),
                       width: MediaQuery.of(context).size.width,

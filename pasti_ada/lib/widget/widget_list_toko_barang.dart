@@ -127,20 +127,11 @@ class ListToko extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: <Widget>[
                           GestureDetector(
-                            onTap: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) {
-                                    return const BahanBangunanCategoryPage();
-                                  },
-                                ),
-                              );
-                            },
+                            onTap: () {},
                             child: Column(
                               children: <Widget>[
                                 Image.asset(
-                                  'assets/icon/barangbekas.png',
+                                  'assets/icon/kuliner.png',
                                   height: 30,
                                   width: 30,
                                 ),
@@ -148,7 +139,7 @@ class ListToko extends StatelessWidget {
                                   height: 8.0,
                                 ),
                                 Text(
-                                  'Bahan bangunan',
+                                  'Kulineran',
                                   style: fontbodyTextSmall,
                                 ),
                               ],
@@ -287,11 +278,20 @@ class ListToko extends StatelessWidget {
                             ),
                           ),
                           GestureDetector(
-                            onTap: () {},
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) {
+                                    return const BahanBangunanCategoryPage();
+                                  },
+                                ),
+                              );
+                            },
                             child: Column(
                               children: <Widget>[
                                 Image.asset(
-                                  'assets/icon/kuliner.png',
+                                  'assets/icon/barangbekas.png',
                                   height: 30,
                                   width: 30,
                                 ),
@@ -299,7 +299,7 @@ class ListToko extends StatelessWidget {
                                   height: 8.0,
                                 ),
                                 Text(
-                                  'Kuliner',
+                                  'Bahan bangunan',
                                   style: fontbodyTextSmall,
                                 ),
                               ],

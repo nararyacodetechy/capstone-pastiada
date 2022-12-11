@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.app_name_and_icon">
+    package="com.example.shop">
    <application
         android:label="Pasti Ada"
         android:name="${applicationName}"

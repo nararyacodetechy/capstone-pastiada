@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pasti_ada/common/styles.dart';
 
 class HistoryPage extends StatelessWidget {
   static const routeName = '/history_page';
@@ -8,11 +9,15 @@ class HistoryPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Riwayat Transaksi'),
+        title: Text(
+          'Riwayat Transaksi',
+          style: fontTitleLarge,
+        ),
       ),
-      body: const Center(
+      body: Center(
         child: Text(
           "Ini Halaman Riwayat Transaksi",
+          style: fontTitleMedium,
         ),
       ),
     );
