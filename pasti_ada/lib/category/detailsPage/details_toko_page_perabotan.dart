@@ -3,7 +3,6 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:pasti_ada/common/styles.dart';
 import 'package:pasti_ada/data/models_local_toko_perabotan.dart';
 import 'package:pasti_ada/page/choose_item_page.dart';
-import 'package:pasti_ada/page/confirm_item_page.dart';
 
 class DetailsTokoPerabotanPage extends StatelessWidget {
   static const routeName = '/details_toko_page_perabotan';

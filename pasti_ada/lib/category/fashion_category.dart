@@ -10,7 +10,6 @@ import 'package:pasti_ada/data/models_local_toko_fashion.dart';
 class FashionCategoryPage extends StatelessWidget {
   const FashionCategoryPage({super.key});
 
-  @override
   Widget _buildListFashionItem(BuildContext context) {
     return FutureBuilder<String>(
       future: DefaultAssetBundle.of(context)
@@ -29,7 +28,6 @@ class FashionCategoryPage extends StatelessWidget {
     );
   }
 
-  @override
   Widget _cardFashionItem(BuildContext context, Fashion fashion) {
     return SizedBox(
       child: Column(
